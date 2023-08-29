@@ -1,0 +1,35 @@
+{
+    "criteria": {
+        "find": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{CustomEnchantments:[{id:\"trueshot\"}]}"
+                    }
+                ]
+            }
+        }
+    },
+    "display": {
+        "title": {
+            "text": "Trueshot ≪精密射撃≫                ",
+            "color": "aqua"
+        },
+        "description": {
+            "color": "white",
+            "text": "この武器から発射された矢は重力の影響を受けず、移動速度が2倍になる。"
+        },
+        "icon": {
+            "item": "minecraft:spectral_arrow"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "rewards": {
+        "function": "cartographer_custom_enchantments:descriptions/ranged/trueshot"
+    },
+    "parent": "cartographer_custom_enchantments:ranged/tempo_theft"
+}

@@ -1,0 +1,12 @@
+モンスタードロップ(wight1000
+574なし
+400ルートドロップ(☆1)50%
+100レアルート(☆3)10%
+25魔石2.5%(☆4)
+1激レアルート(☆6)0.1%
+(装備ドロップ率は基本で8.25%)
+
+
+neofunction:entity/連番
+neofunction:item/連番
+neofunction:chest/rare or legacy or legendary

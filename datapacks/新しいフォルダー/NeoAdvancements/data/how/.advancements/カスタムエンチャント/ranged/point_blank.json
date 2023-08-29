@@ -1,0 +1,35 @@
+{
+    "display": {
+        "title": {
+            "text": "Point Blank ≪至近弾≫             ",
+            "color": "aqua"
+        },
+        "description": {
+            "text": "この武器の矢は、自分に近い敵に与えるダメージが増加する。",
+            "color": "white"
+        },
+        "icon": {
+            "item": "minecraft:bow"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "find": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{CustomEnchantments:[{id:\"point_blank\"}]}"
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "cartographer_custom_enchantments:descriptions/ranged/point_blank"
+    },
+    "parent": "cartographer_custom_enchantments:ranged/overcharge"
+}

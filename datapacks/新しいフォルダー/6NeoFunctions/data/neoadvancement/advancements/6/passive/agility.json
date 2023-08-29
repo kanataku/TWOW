@@ -1,0 +1,35 @@
+{
+    "display": {
+        "title": {
+            "text": "Agility ≪機動力≫                 ",
+            "color": "aqua"
+        },
+        "description": {
+            "color": "white",
+            "text": "使用者のジャンプ力がアップする。"
+        },
+        "icon": {
+            "item": "minecraft:slime_ball"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "find": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{CustomEnchantments:[{id:\"agility\"}]}"
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "neoadvancement:6/descriptions/passive/agility"
+    },
+    "parent": "neoadvancement:6/passive/adrenaline"
+}

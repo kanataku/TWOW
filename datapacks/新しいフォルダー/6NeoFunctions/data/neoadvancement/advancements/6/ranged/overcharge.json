@@ -1,0 +1,35 @@
+{
+    "display": {
+        "title": {
+            "text": "Overcharge ≪過負荷≫               ",
+            "color": "aqua"
+        },
+        "description": {
+            "text": "より長い時間弓を引き、ダメージを増加させることができる。",
+            "color": "white"
+        },
+        "icon": {
+            "item": "minecraft:copper_ingot"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "find": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{CustomEnchantments:[{id:\"overcharge\"}]}"
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "neoadvancement:6/descriptions/ranged/overcharge"
+    },
+    "parent": "neoadvancement:6/ranged/infect"
+}

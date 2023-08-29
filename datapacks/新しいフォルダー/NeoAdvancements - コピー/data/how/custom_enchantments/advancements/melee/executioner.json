@@ -1,0 +1,35 @@
+{
+    "display": {
+        "title": {
+            "text": "Executioner ≪執行者≫             ",
+            "color": "aqua"
+        },
+        "description": {
+            "color": "white",
+            "text": "この武器の近接攻撃は、体力が少なくなった敵にとどめを刺す。"
+        },
+        "icon": {
+            "item": "minecraft:netherite_axe"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "find": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{CustomEnchantments:[{id:\"executioner\"}]}"
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "cartographer_custom_enchantments:descriptions/melee/executioner"
+    },
+    "parent": "cartographer_custom_enchantments:melee/evocation"
+}

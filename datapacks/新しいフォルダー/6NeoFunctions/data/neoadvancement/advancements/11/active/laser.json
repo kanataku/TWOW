@@ -1,0 +1,33 @@
+{
+    "display": {
+        "title": {
+            "text": "Laser ≪レーザー≫                   ",
+            "color": "white"
+        },
+        "description": {
+            "text": "敵は一番近いプレイヤーに向けたレーザーを流すことができる。発射すると、地形を破壊し、爆発的なダメージを与える。",
+            "color": "white"
+        },
+        "icon": {
+            "item": "minecraft:end_rod"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "found": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "nbt": "{Tags:[\"ca.laser\"]}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "neoadvancement:11/descriptions/active/laser"
+    },
+    "parent": "neoadvancement:11/active/hookshot"
+}

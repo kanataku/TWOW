@@ -1,0 +1,33 @@
+{
+    "criteria": {
+        "found": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "nbt": "{Tags:[\"ca.charge\"]}"
+                }
+            }
+        }
+    },
+    "display": {
+        "title": {
+            "text": "Charge ≪突撃≫                  ",
+            "color": "white"
+        },
+        "description": {
+            "color": "white",
+            "text": "敵は向いている方向に素早く一直線に移動（チャージ）することができます。進路上に立っているプレイヤーはダメージを受ける。"
+        },
+        "icon": {
+            "item": "minecraft:wooden_axe"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "rewards": {
+        "function": "neoadvancement:11/descriptions/active/charge"
+    },
+    "parent": "neoadvancement:11/active/augmenter"
+}

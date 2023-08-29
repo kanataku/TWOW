@@ -1,0 +1,1 @@
+summon zombie ~ ~ ~ {Tags:["king"],CustomName:'{"text":"真祖の最上位存在","color":"light_purple","bold":true,"italic":false,"underlined":true}',ArmorItems:[{},{},{},{id:'minecraft:oak_planks',Count:1b}],Tags:[lv7,king],DeathLootTable:"neofunction:entity/17"}

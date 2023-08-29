@@ -1,0 +1,30 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:nether_star"
+        },
+        "title": [
+            {
+                "text": ""
+            },
+            {
+                "translate": "異能 -AdvanceSkill-                                ",
+                "color": "white",
+                "bold": true
+            }
+        ],
+        "description": {
+            "translate": "この進捗では特殊能力の入手率を確認できます。(0/999)"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false,
+        "background": "minecraft:textures/block/white_shulker_box.png"
+    },
+    "criteria": {
+        "tick": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}

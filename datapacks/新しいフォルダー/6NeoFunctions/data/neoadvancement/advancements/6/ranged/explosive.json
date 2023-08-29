@@ -1,0 +1,35 @@
+{
+    "display": {
+        "title": {
+            "text": "Explosive ≪爆発≫                ",
+            "color": "aqua"
+        },
+        "description": {
+            "color": "white",
+            "text": "この武器から発射された矢は、敵に当たると爆発する。エンチャントによる矢の効果は、敵に当たっても広がる。"
+        },
+        "icon": {
+            "item": "minecraft:firework_rocket"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "find": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{CustomEnchantments:[{id:\"explosive\"}]}"
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "neoadvancement:6/descriptions/ranged/explosive"
+    },
+    "parent": "neoadvancement:6/ranged/electrode"
+}

@@ -1,0 +1,35 @@
+{
+    "criteria": {
+        "find": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{CustomEnchantments:[{id:\"concealed\"}]}"
+                    }
+                ]
+            }
+        }
+    },
+    "display": {
+        "title": {
+            "text": "Concealed ≪隠密≫               ",
+            "color": "aqua"
+        },
+        "description": {
+            "color": "white",
+            "text": "使用者がモブを倒すと、短時間の間、ステルスを獲得する。ステルスはダメージを受けたり与えたりすると解除され、透明化し、近接攻撃のボーナスダメージを与える。"
+        },
+        "icon": {
+            "item": "minecraft:oak_leaves"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "rewards": {
+        "function": "cartographer_custom_enchantments:descriptions/passive/concealed"
+    },
+    "parent": "cartographer_custom_enchantments:passive/cleansing"
+}

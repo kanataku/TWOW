@@ -1,0 +1,35 @@
+{
+    "criteria": {
+        "find": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{CustomEnchantments:[{id:\"second_wind\"}]}"
+                    }
+                ]
+            }
+        }
+    },
+    "display": {
+        "title": {
+            "text": "Second Wind ≪蘇生≫             ",
+            "color": "aqua"
+        },
+        "description": {
+            "color": "white",
+            "text": "致命的な攻撃から身を守り、緩衝体力シールドを付与する。蘇生後は素早くMobを倒して体力を回復させないとペナルティを受ける。"
+        },
+        "icon": {
+            "item": "minecraft:yellow_dye"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "rewards": {
+        "function": "cartographer_custom_enchantments:descriptions/passive/second_wind"
+    },
+    "parent": "cartographer_custom_enchantments:passive/satiation"
+}

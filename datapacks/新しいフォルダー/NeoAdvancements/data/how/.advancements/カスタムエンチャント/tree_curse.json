@@ -1,0 +1,27 @@
+{
+    "criteria": {
+        "tick": {
+            "trigger": "minecraft:tick"
+        }
+    },
+    "display": {
+        "title": {
+            "text": "Curses ≪呪い≫                   ",
+            "color": "red",
+            "bold": false
+        },
+        "description": {
+            "bold": false,
+            "color": "white",
+            "text": "マイナスの効果を持つエンチャント。"
+        },
+        "icon": {
+            "item": "minecraft:redstone"
+        },
+        "frame": "goal",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "parent": "cartographer_custom_enchantments:root"
+}

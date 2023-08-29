@@ -1,0 +1,35 @@
+{
+    "criteria": {
+        "find": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{CustomEnchantments:[{id:\"cauterize\"}]}"
+                    }
+                ]
+            }
+        }
+    },
+    "display": {
+        "title": {
+            "text": "Cauterize ≪焼灼≫               ",
+            "color": "aqua"
+        },
+        "description": {
+            "color": "white",
+            "text": "着用または使用している間、攻撃した火属性のモブを消し、脆くする。脆くなったMobは次に受ける攻撃で2倍のダメージとボーナスノックバックを受ける。"
+        },
+        "icon": {
+            "item": "minecraft:flint_and_steel"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "rewards": {
+        "function": "cartographer_custom_enchantments:descriptions/passive/cauterize"
+    },
+    "parent": "cartographer_custom_enchantments:passive/aquadynamic"
+}

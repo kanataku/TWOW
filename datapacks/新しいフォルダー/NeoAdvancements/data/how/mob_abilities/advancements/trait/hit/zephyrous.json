@@ -1,0 +1,33 @@
+{
+    "display": {
+        "title": {
+            "text": "Zephyrous ≪ゼファロス≫               ",
+            "color": "white"
+        },
+        "description": {
+            "text": "モブの攻撃やエフェクトで雲を発生させ、プレイヤーを空中に飛び出させる。",
+            "color": "white"
+        },
+        "icon": {
+            "item": "minecraft:white_wool"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "found1": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "nbt": "{Tags:[\"ca.zephyrous\"]}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "cartographer_mob_abilities:descriptions/trait/hit/zephyrous"
+    },
+    "parent": "cartographer_mob_abilities:trait/hit/venemous"
+}

@@ -1,0 +1,1 @@
+summon zombie ~ ~ ~ {Tags:["boss"],CustomName:'{"text":"真祖の上位存在","color":"light_purple","bold":true,"italic":false,"underlined":true}',ArmorItems:[{},{},{},{id:'minecraft:oak_planks',Count:1b}],Tags:[lv7,boss],DeathLootTable:"neofunction:entity/16"}

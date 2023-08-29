@@ -1,0 +1,25 @@
+{
+    "display": {
+        "title": {
+            "text": "Passives ≪パッシブ≫                ",
+            "color": "yellow"
+        },
+        "description": {
+            "text": "モブが持つパッシブ効果。",
+            "color": "white"
+        },
+        "icon": {
+            "item": "minecraft:wither_skeleton_skull"
+        },
+        "frame": "goal",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "tick": {
+            "trigger": "minecraft:tick"
+        }
+    },
+    "parent": "neoadvancement:11/root"
+}

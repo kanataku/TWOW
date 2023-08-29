@@ -1,0 +1,30 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:knowledge_book"
+        },
+        "title": [
+            {
+                "text": ""
+            },
+            {
+                "translate": "蒐集 -collection-",
+                "color": "white",
+                "bold": true
+            }
+        ],
+        "description": {
+            "translate": "この進捗では「ストーリーアイテム」の入手率を確認できます。(0/100)"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false,
+        "background": "minecraft:textures/block/white_shulker_box.png"
+    },
+    "criteria": {
+        "tick": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}

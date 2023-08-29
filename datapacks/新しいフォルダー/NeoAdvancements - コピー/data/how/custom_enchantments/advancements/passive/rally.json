@@ -1,0 +1,35 @@
+{
+    "criteria": {
+        "find": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{CustomEnchantments:[{id:\"rally\"}]}"
+                    }
+                ]
+            }
+        }
+    },
+    "display": {
+        "title": {
+            "text": "Rally ≪再起≫                   ",
+            "color": "aqua"
+        },
+        "description": {
+            "text": "攻撃を受けたとき、素早く攻撃することで失った体力を最大50％回復させることができる。",
+            "color": "white"
+        },
+        "icon": {
+            "item": "minecraft:red_dye"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "rewards": {
+        "function": "cartographer_custom_enchantments:descriptions/passive/rally"
+    },
+    "parent": "cartographer_custom_enchantments:passive/lifesteal"
+}

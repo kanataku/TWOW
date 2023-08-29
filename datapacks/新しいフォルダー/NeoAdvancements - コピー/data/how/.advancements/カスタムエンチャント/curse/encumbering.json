@@ -1,0 +1,35 @@
+{
+    "criteria": {
+        "find": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{CustomEnchantments:[{id:\"curse_encumbering\"}]}"
+                    }
+                ]
+            }
+        }
+    },
+    "display": {
+        "title": {
+            "text": "Curse of Encumbering ≪エンカウントの呪い≫    ",
+            "color": "red"
+        },
+        "description": {
+            "color": "white",
+            "text": "この武器から発射された矢は、速度が極端に低下する。(ダメージに影響はない）"
+        },
+        "icon": {
+            "item": "minecraft:arrow"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "rewards": {
+        "function": "cartographer_custom_enchantments:descriptions/curse/encumbering"
+    },
+    "parent": "cartographer_custom_enchantments:tree_curse"
+}

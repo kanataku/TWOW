@@ -1,0 +1,1 @@
+summon zombie ~ ~ ~ {Tags:["undead"],CustomName:'{"text":"真祖の不死者","color":"light_purple","bold":true,"italic":false,"underlined":true}',ArmorItems:[{},{},{},{id:'minecraft:oak_planks',Count:1b}],Tags:[EX,undead],DeathLootTable:"neofunction:entity/12"}

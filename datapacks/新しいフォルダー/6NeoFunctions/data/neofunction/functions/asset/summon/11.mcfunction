@@ -1,0 +1,1 @@
+summon armor_stand ~ ~ ~ {Tags:["warp"],Tags:[EX,warp],DeathLootTable:"neofunction:entity/11"}

@@ -1,0 +1,1 @@
+summon zombie ~ ~ ~ {Tags:["god"],CustomName:'{"text":"真祖の神格存在","color":"light_purple","bold":true,"italic":false,"underlined":true}',ArmorItems:[{},{},{},{id:'minecraft:oak_planks',Count:1b}],Tags:[lv6,god],DeathLootTable:"neofunction:entity/15"}

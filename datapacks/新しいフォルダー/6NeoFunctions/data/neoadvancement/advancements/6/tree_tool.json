@@ -1,0 +1,25 @@
+{
+    "display": {
+        "title": {
+            "text": "Tools ≪道具≫                   ",
+            "color": "yellow"
+        },
+        "description": {
+            "text": "道具に影響を与えるエンチャント。",
+            "color": "white"
+        },
+        "icon": {
+            "item": "minecraft:iron_pickaxe"
+        },
+        "frame": "goal",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "tick": {
+            "trigger": "minecraft:tick"
+        }
+    },
+    "parent": "neoadvancement:6/root"
+}

@@ -1,0 +1,1 @@
+summon armor_stand ~ ~ ~ {ShowArms:1b,NoBasePlate:1b,Tags:["test"],ArmorItems:[{},{},{},{id:"minecraft:oak_planks",Count:1b}],CustomName:'{"text":"開放者SK","color":"light_purple","bold":true,"italic":false,"underlined":true}',Tags:[EX,test],DeathLootTable:"neofunction:entity/4"}

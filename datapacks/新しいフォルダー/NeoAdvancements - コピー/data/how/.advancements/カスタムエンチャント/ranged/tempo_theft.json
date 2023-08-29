@@ -1,0 +1,35 @@
+{
+    "display": {
+        "title": {
+            "text": "Tempo Theft ≪盗難≫             ",
+            "color": "aqua"
+        },
+        "description": {
+            "color": "white",
+            "text": "この武器から発射される矢は、一時的に敵の移動速度を奪う。"
+        },
+        "icon": {
+            "item": "minecraft:scute"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "find": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{CustomEnchantments:[{id:\"tempo_theft\"}]}"
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "cartographer_custom_enchantments:descriptions/ranged/tempo_theft"
+    },
+    "parent": "cartographer_custom_enchantments:ranged/sharpshot"
+}

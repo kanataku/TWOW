@@ -1,0 +1,25 @@
+{
+    "criteria": {
+        "tick": {
+            "trigger": "minecraft:tick"
+        }
+    },
+    "display": {
+        "title": {
+            "color": "#ACFFA6",
+            "text": "カスタムエンチャント"
+        },
+        "description": {
+            "color": "white",
+            "text": "このタブはカスタムエンチャントを見つけると、その簡単な説明を作成します。詳しい説明はLexica Cartographiaに記載されています。"
+        },
+        "icon": {
+            "item": "minecraft:enchanted_book"
+        },
+        "frame": "challenge",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false,
+        "background": "minecraft:textures/block/bone_block_side.png"
+    }
+}

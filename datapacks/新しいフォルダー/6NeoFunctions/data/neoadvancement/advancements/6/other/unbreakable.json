@@ -1,0 +1,35 @@
+{
+    "criteria": {
+        "found": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{Unbreakable:1b}"
+                    }
+                ]
+            }
+        }
+    },
+    "display": {
+        "title": {
+            "text": "Unbreakable ≪不可壊≫             ",
+            "color": "aqua"
+        },
+        "description": {
+            "text": "この装備は壊れません。(カスタムエンチャントによる破壊を除く)",
+            "color": "white"
+        },
+        "icon": {
+            "item": "minecraft:anvil"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "rewards": {
+        "function": "neoadvancement:6/descriptions/other/unbreakable"
+    },
+    "parent": "neoadvancement:6/other/soulbound"
+}

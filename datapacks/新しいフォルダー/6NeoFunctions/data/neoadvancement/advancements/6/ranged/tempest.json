@@ -1,0 +1,35 @@
+{
+    "display": {
+        "title": {
+            "text": "Tempest ≪嵐≫                 ",
+            "color": "aqua"
+        },
+        "description": {
+            "color": "white",
+            "text": "トライデントの投擲で追加ダメージを与える。"
+        },
+        "icon": {
+            "item": "minecraft:trident"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "find": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{CustomEnchantments:[{id:\"tempest\"}]}"
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "neoadvancement:6/descriptions/ranged/tempest"
+    },
+    "parent": "neoadvancement:6/ranged/ricochet"
+}

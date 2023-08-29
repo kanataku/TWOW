@@ -1,0 +1,1 @@
+summon armor_stand ~ ~ ~ {Tags:["fly2"],Tags:[EX,fly2],DeathLootTable:"neofunction:entity/9"}

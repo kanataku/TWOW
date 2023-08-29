@@ -1,0 +1,30 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:writable_book"
+        },
+        "title": [
+            {
+                "translate": "物語 -Story-                                ",
+                "color": "white",
+                "bold": true
+            }
+        ],
+        "description": {
+            "translate": "この進捗ではストーリーの進行率を確認できます。"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false,
+        "background": "minecraft:textures/block/white_shulker_box.png"
+    },
+    "criteria": {
+        "tick": {
+            "trigger": "minecraft:tick"
+        }
+    },
+  "rewards": {
+    "function": ""
+  }
+}

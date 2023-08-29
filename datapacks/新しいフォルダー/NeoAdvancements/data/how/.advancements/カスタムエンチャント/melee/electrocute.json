@@ -1,0 +1,35 @@
+{
+    "display": {
+        "title": {
+            "text": "Electrocute ≪感電≫                ",
+            "color": "aqua"
+        },
+        "description": {
+            "color": "white",
+            "text": "この武器による近接攻撃は、Shocked ≪ショック≫ を与える。"
+        },
+        "icon": {
+            "item": "minecraft:soul_lantern"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "find": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{CustomEnchantments:[{id:\"electrocute\"}]}"
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "cartographer_custom_enchantments:descriptions/melee/electrocute"
+    },
+    "parent": "cartographer_custom_enchantments:melee/echo"
+}

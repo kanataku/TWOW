@@ -1,0 +1,33 @@
+{
+    "display": {
+        "title": {
+            "text": "Exalted ≪高貴≫                 ",
+            "color": "white"
+        },
+        "description": {
+            "text": "死亡時に武器を落とし、近くにソウルを出現させる。ソウルは武器を取り戻そうとし、取り戻した場合はモブをリスポーンさせる。",
+            "color": "white"
+        },
+        "icon": {
+            "item": "minecraft:iron_chestplate"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "found": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "nbt": "{Tags:[\"ca.exalted\"]}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "cartographer_mob_abilities:descriptions/death/exalted"
+    },
+    "parent": "cartographer_mob_abilities:death/corpse_crawler"
+}

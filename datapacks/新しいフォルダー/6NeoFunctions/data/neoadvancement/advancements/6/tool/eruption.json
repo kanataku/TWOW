@@ -1,0 +1,35 @@
+{
+    "display": {
+        "title": {
+            "text": "Eruption ≪噴火≫                ",
+            "color": "aqua"
+        },
+        "description": {
+            "text": "このツールでスポナーを壊すと、スポナーの近くにいる敵にダメージを与える。発動時に近接効果(Fire Aspectなど)を与える。",
+            "color": "white"
+        },
+        "icon": {
+            "item": "minecraft:flint_and_steel"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "find": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{CustomEnchantments:[{id:\"eruption\"}]}"
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "neoadvancement:6/descriptions/tool/eruption"
+    },
+    "parent": "neoadvancement:6/tree_tool"
+}

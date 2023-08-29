@@ -1,0 +1,30 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:compass"
+        },
+        "title": [
+            {
+                "translate": "総合 -Objective-                                ",
+                "color": "light_purple",
+                "bold": true
+            }
+        ],
+        "description": {
+            "translate": "この進捗ではゲームの進行率を確認できます。(0/100)"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false,
+        "background": "minecraft:textures/entity/end_portal.png"
+    },
+    "criteria": {
+        "tick": {
+            "trigger": "minecraft:tick"
+        }
+    },
+  "rewards": {
+    "function": "neo:adv/start/test"
+  }
+}

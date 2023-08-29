@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:map",
+            "nbt": "{display:{MapColor:0},CustomModelData:0,map:0}"
+        },
+        "title": [
+            {
+                "translate": "12                                ",
+                "color": "white",
+                "bold": true
+            }
+        ],
+        "description": {
+            "translate": "→この進捗ではディメンションの到達率を確認できます。\n現在の到達率：(0/10)",
+            "color": "gold"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false,
+        "background": "minecraft:textures/block/white_shulker_box.png"
+    },
+    "criteria": {
+        "tick": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

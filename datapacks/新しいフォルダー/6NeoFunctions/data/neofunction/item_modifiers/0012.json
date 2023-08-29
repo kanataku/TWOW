@@ -1,0 +1,68 @@
+[
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      {
+        "text": "Worlds:",
+        "color": "gold",
+        "italic": false,
+        "extra": [
+          {
+            "text": "✯",
+            "color": "white",
+            "italic": false,
+            "extra": [
+              {
+                "text": "✯",
+                "color": "aqua",
+                "extra": [
+                  {
+                    "text": "✯",
+                    "color": "dark_aqua",
+                    "extra": [
+                      {
+                        "text": "✯",
+                        "color": "light_purple",
+                        "extra": [
+                          {
+                            "text": "✯",
+                            "color": "dark_parple",
+                            "extra": [
+                              {
+                                "text": "✯",
+                                "color": "red",
+                                "extra": [
+                                  {
+                                    "text": "✯",
+                                    "color": "dark_red",
+                                    "extra": [
+                                      {
+                                        "text": "✯",
+                                        "color": "yellow",
+                                        "extra": [
+                                          {
+                                            "text": "✯",
+                                            "color": "gold"
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

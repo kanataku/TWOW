@@ -1,0 +1,33 @@
+{
+    "criteria": {
+        "found": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "nbt": "{Tags:[\"ca.pyromania\"]}"
+                }
+            }
+        }
+    },
+    "display": {
+        "title": {
+            "text": "Pyromania ≪放火魔≫               ",
+            "color": "white"
+        },
+        "description": {
+            "color": "white",
+            "text": "死亡すると、敵は炎と溶岩を発生させるファイアブリンガーを落とします。ファイアブリンガーはブロックを置くと破壊できます。"
+        },
+        "icon": {
+            "item": "minecraft:campfire"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "rewards": {
+        "function": "neoadvancement:11/descriptions/death/pyromania"
+    },
+    "parent": "neoadvancement:11/death/parting_gift"
+}

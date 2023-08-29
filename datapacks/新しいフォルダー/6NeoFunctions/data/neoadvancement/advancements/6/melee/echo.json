@@ -1,0 +1,35 @@
+{
+    "criteria": {
+        "find": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{CustomEnchantments:[{id:\"echo\"}]}"
+                    }
+                ]
+            }
+        }
+    },
+    "display": {
+        "title": {
+            "text": "Echo ≪エコー≫                    ",
+            "color": "aqua"
+        },
+        "description": {
+            "text": "敵を倒すと武器にチャージが貯まり、攻撃時に消費して瞬時に攻撃メーターをリフレッシュすることができます。",
+            "color": "white"
+        },
+        "icon": {
+            "item": "minecraft:diamond_sword"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "rewards": {
+        "function": "neoadvancement:6/descriptions/melee/echo"
+    },
+    "parent": "neoadvancement:6/melee/duelist"
+}

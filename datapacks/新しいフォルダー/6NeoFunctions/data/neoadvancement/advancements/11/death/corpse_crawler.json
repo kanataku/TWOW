@@ -1,0 +1,83 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:zombie_head"
+    },
+    "title": {
+      "text": "Corpse Crawler ≪輪廻転生≫          ",
+      "color": "white"
+    },
+    "description": {
+      "text": "死亡時に死体の卵を落とす。卵は孵化して様々な子モブになる。卵は攻撃で破壊することができる。",
+      "color": "white"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "parent": "neoadvancement:11/death/blood_sacrificial",
+  "criteria": {
+    "found": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "nbt": "{Tags:[\"corpse_crawler\"]}"
+        }
+      }
+    },
+    "found_2": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "nbt": "{Tags:[\"corpse_crawler_husk\"]}"
+        }
+      }
+    },
+    "found_3": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "nbt": "{Tags:[\"corpse_crawler_drowned\"]}"
+        }
+      }
+    },
+    "found_4": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "nbt": "{Tags:[\"corpse_crawler_piglin\"]}"
+        }
+      }
+    },
+    "found_5": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "nbt": "{Tags:[\"corpse_crawler_hoglin\"]}"
+        }
+      }
+    },
+    "found_6": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "nbt": "{Tags:[\"corpse_crawler_bee\"]}"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "found",
+      "found_2",
+      "found_3",
+      "found_4",
+      "found_5",
+      "found_6"
+    ]
+  ],
+  "rewards": {
+    "function": "neoadvancement:11/descriptions/death/corpse_crawler"
+  }
+}

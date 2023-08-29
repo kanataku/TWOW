@@ -1,0 +1,35 @@
+{
+    "criteria": {
+        "find": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{CustomEnchantments:[{id:\"spurs\"}]}"
+                    }
+                ]
+            }
+        }
+    },
+    "display": {
+        "title": {
+            "text": "Spurs ≪剪定≫                   ",
+            "color": "aqua"
+        },
+        "description": {
+            "color": "white",
+            "text": "ユーザーは、近くの植物、クモの巣、ベリーの茂みを壊す。"
+        },
+        "icon": {
+            "item": "minecraft:cobweb"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "rewards": {
+        "function": "cartographer_custom_enchantments:descriptions/passive/spurs"
+    },
+    "parent": "cartographer_custom_enchantments:passive/second_wind"
+}

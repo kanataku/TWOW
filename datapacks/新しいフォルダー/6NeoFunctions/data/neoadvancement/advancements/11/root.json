@@ -1,0 +1,28 @@
+{
+    "criteria": {
+        "tick": {
+            "trigger": "minecraft:tick"
+        }
+    },
+    "display": {
+        "title": {
+            "text": "敵技 -EnemySkill-                                ",
+            "color": "white",
+            "bold": true
+        },
+        "description": {
+            "color": "white",
+            "text": "ユニークな特性やスキルを持つ敵を倒すと、このタブでその短い説明が作成されます。"
+        },
+        "icon": {
+      "item": "minecraft:sculk_shrieker",
+      "nbt": "{Enchantments:[{}]}"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false,
+        "background": "minecraft:textures/block/bone_block_side.png"
+    }
+}
+

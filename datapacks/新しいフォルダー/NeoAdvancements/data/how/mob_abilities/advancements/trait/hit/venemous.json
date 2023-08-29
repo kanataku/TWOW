@@ -1,0 +1,33 @@
+{
+    "display": {
+        "title": {
+            "text": "Venemous ≪胎動≫                ",
+            "color": "white"
+        },
+        "description": {
+            "text": "モブの攻撃や効果でプレイヤーが毒状態になる。毒は、プレイヤーが飽和状態であれば、より速く燃焼する。",
+            "color": "white"
+        },
+        "icon": {
+            "item": "minecraft:slime_ball"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "found": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "nbt": "{Tags:[\"ca.venemous\"]}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "cartographer_mob_abilities:descriptions/trait/hit/venemous"
+    },
+    "parent": "cartographer_mob_abilities:trait/hit/overloading"
+}

@@ -1,0 +1,35 @@
+{
+    "criteria": {
+        "find": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{CustomEnchantments:[{id:\"hydraulic\"}]}"
+                    }
+                ]
+            }
+        }
+    },
+    "display": {
+        "title": {
+            "text": "Hydraulic ≪水圧≫               ",
+            "color": "aqua"
+        },
+        "description": {
+            "text": "トライデントの投げ攻撃は、近距離の水のような突進に変わり、近くの敵をすべてノックバックさせ、ダメージを与えるようになります。",
+            "color": "white"
+        },
+        "icon": {
+            "item": "minecraft:trident"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "rewards": {
+        "function": "cartographer_custom_enchantments:descriptions/ranged/hydraulic"
+    },
+    "parent": "cartographer_custom_enchantments:ranged/current"
+}

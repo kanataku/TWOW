@@ -1,0 +1,26 @@
+{
+    "display": {
+        "title": {
+            "text": "Negative Effects         ",
+            "color": "yellow"
+        },
+        "description": {
+            "text": "有害なカスタムステータス効果。",
+            "color": "white"
+        },
+        "icon": {
+            "item": "minecraft:lingering_potion",
+      "nbt": "{CustomPotionColor:16711680}"
+        },
+        "frame": "goal",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "tick": {
+            "trigger": "minecraft:tick"
+        }
+    },
+    "parent": "neoadvancement:13/root"
+}

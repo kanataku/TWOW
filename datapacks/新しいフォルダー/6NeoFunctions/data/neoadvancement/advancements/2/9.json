@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:map",
+            "nbt": "{display:{MapColor:0},CustomModelData:9,map:9}"
+        },
+        "title": [
+            {
+                "translate": "悠遠の巨石遺跡 -Asgard-                                ",
+                "color": "#c3d825",
+                "bold": true
+            }
+        ],
+        "description": {
+            "translate": "→【アースガルド】に到達する。\n報酬：ネザースター×128",
+                "color": "gold"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+  "parent": "neoadvancement:2/8",
+  "criteria": {
+    "dummy": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

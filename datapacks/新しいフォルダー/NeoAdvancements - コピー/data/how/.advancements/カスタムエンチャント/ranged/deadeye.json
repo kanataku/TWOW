@@ -1,0 +1,35 @@
+{
+    "criteria": {
+        "find": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{CustomEnchantments:[{id:\"deadeye\"}]}"
+                    }
+                ]
+            }
+        }
+    },
+    "display": {
+        "title": {
+            "text": "Deadeye ≪死の目≫               ",
+            "color": "aqua"
+        },
+        "description": {
+            "color": "white",
+            "text": "矢の代わりに瞬間移動する弾丸を発射し、高いダメージを与える。弾は範囲内のランダムな敵に向けられる。"
+        },
+        "icon": {
+            "item": "minecraft:crossbow"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "rewards": {
+        "function": "cartographer_custom_enchantments:descriptions/ranged/deadeye"
+    },
+    "parent": "cartographer_custom_enchantments:ranged/bleed"
+}

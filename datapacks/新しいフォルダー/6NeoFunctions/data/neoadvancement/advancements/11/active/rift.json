@@ -1,0 +1,38 @@
+{
+    "criteria": {
+        "found": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "nbt": "{Tags:[\"ca.rift\"]}"
+                }
+            }
+        }
+    },
+    "display": {
+        "title": {
+            "text": "Rift ≪裂け目≫                    ",
+            "color": "white"
+        },
+        "description": {
+            "text": "敵はダメージを与える衝撃波を発生させ、そこから遠ざかる。",
+            "color": "white"
+        },
+        "icon": {
+            "item": "minecraft:netherite_pickaxe"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "requirements": [
+        [
+            "found"
+        ]
+    ],
+    "rewards": {
+        "function": "neoadvancement:11/descriptions/active/rift"
+    },
+    "parent": "neoadvancement:11/active/orbit"
+}

@@ -1,0 +1,35 @@
+{
+    "display": {
+        "title": {
+            "text": "Lifesteal ≪吸血≫     ",
+            "color": "aqua"
+        },
+        "description": {
+            "color": "white",
+            "text": "モブを倒した際に体力を回復させる。"
+        },
+        "icon": {
+            "item": "minecraft:wither_skeleton_skull"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "find": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{CustomEnchantments:[{id:\"lifesteal\"}]}"
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "cartographer_custom_enchantments:descriptions/passive/lifesteal"
+    },
+    "parent": "cartographer_custom_enchantments:passive/frenzy"
+}

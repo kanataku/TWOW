@@ -1,0 +1,25 @@
+{
+    "criteria": {
+        "tick": {
+            "trigger": "minecraft:tick"
+        }
+    },
+    "display": {
+        "title": {
+            "text": "エネミースキル",
+            "color": "#ACFFA6"
+        },
+        "description": {
+            "color": "white",
+            "text": "ユニークな特性やスキルを持つ敵を倒すと、このタブでその短い説明が作成されます。詳しい説明はLexica Cartographiaに記載されています。"
+        },
+        "icon": {
+            "item": "minecraft:writable_book"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false,
+        "background": "minecraft:textures/block/bone_block_side.png"
+    }
+}

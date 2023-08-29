@@ -1,0 +1,13 @@
+{
+  "criteria": {
+    "unlock": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "neocraft:adv/move_on_lightning"
+      }
+    }
+  },
+  "rewards": {
+    "function": "neocraft:adv/move_on_lightning"
+  }
+}

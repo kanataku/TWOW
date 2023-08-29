@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:map",
+            "nbt": "{display:{MapColor:0},CustomModelData:8,map:8}"
+        },
+        "title": [
+            {
+                "translate": "極彩の天空王国 -RainbowHeaven-                                ",
+                "color": "#c3d825",
+                "bold": true
+            }
+        ],
+        "description": {
+            "translate": "→【レインボーヘブン】に到達する。\n報酬：ネザースター×128",
+                "color": "gold"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+  "parent": "neoadvancement:2/7",
+  "criteria": {
+    "dummy": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

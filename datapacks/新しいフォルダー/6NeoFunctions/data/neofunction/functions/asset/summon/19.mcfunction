@@ -1,0 +1,1 @@
+summon zombie ~ ~ ~ {CustomName:'{"text":"missingno"}',Tags:["test"],Passengers:[{id:"minecraft:text_display",Tags:["upper"],text:'[{"text":"この/functionはまだセットされていません。"},{"text":"\\n"},{"text":"/reload はしましたか？"}]'}],Tags:[EX,test,upper],DeathLootTable:"neofunction:entity/19"}

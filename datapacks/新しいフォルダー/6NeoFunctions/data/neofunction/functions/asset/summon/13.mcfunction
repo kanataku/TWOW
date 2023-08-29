@@ -1,0 +1,1 @@
+summon zombie ~ ~ ~ {Tags:["vampire"],CustomName:'{"text":"真祖の吸血鬼","color":"light_purple","bold":true,"italic":false,"underlined":true}',ArmorItems:[{},{},{},{id:'minecraft:oak_planks',Count:1b}],Tags:[lv6,vampire],DeathLootTable:"neofunction:entity/13"}

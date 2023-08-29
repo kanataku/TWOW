@@ -1,0 +1,35 @@
+{
+    "criteria": {
+        "find": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{CustomEnchantments:[{id:\"auto_charge\"}]}"
+                    }
+                ]
+            }
+        }
+    },
+    "display": {
+        "title": {
+            "text": "Auto Charge ≪自動装填≫              ",
+            "color": "aqua"
+        },
+        "description": {
+            "color": "white",
+            "text": "モブを倒すと、クロスボウが自動的にフリーショットでリロードされます。(ホットバー上にあることが必要です）"
+        },
+        "icon": {
+            "item": "minecraft:crossbow"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "rewards": {
+        "function": "neoadvancement:6/descriptions/ranged/auto_charge"
+    },
+    "parent": "neoadvancement:6/tree_ranged"
+}

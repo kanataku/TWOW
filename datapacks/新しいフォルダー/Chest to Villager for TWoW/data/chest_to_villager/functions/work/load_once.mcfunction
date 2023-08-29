@@ -1,0 +1,19 @@
+#> chest_to_villager:work/load_once
+#
+# 初回設定
+#
+# @within function chest_to_villager:work/load
+
+# スコアボード作成
+scoreboard objectives add ChestToVillager dummy
+
+# ストレージ
+# テンプレート設定
+data modify storage chest_to_villager: template set value [{buy:{},buyB:{},sell:{},rewardExp:false,maxUses:2147483647,uses:-2147483648},{buy:{},buyB:{},sell:{},rewardExp:false,maxUses:2147483647,uses:-2147483648},{buy:{},buyB:{},sell:{},rewardExp:false,maxUses:2147483647,uses:-2147483648},{buy:{},buyB:{},sell:{},rewardExp:false,maxUses:2147483647,uses:-2147483648},{buy:{},buyB:{},sell:{},rewardExp:false,maxUses:2147483647,uses:-2147483648},{buy:{},buyB:{},sell:{},rewardExp:false,maxUses:2147483647,uses:-2147483648},{buy:{},buyB:{},sell:{},rewardExp:false,maxUses:2147483647,uses:-2147483648},{buy:{},buyB:{},sell:{},rewardExp:false,maxUses:2147483647,uses:-2147483648},{buy:{},buyB:{},sell:{},rewardExp:false,maxUses:2147483647,uses:-2147483648}]
+
+# loadチェック
+data modify storage chest_to_villager: version set value '{"text":"ver 1.0","color":"aqua"}'
+
+tellraw @a [{"storage":"chest_to_villager:","nbt":"version","interpret": true},{"text": " の初回ロードをしました。","color": "white"}]
+
+give @a written_book{author:"nameless C.O.",display:{Lore:['{"text":"How to use the function of Chest to Villager.","color":"gold"}'],Name:'{"text":"FNC \\"Chest to Villager\\"","color":"gold","bold":true,"italic":false,"underlined":true,"strikethrough":false,"obfuscated":false}'},generation:2,pages:['[{"text":"Chest To Villager","color":"gold","bold":true,"italic":true,"underlined":true},{"text":"\\n\\n#概要\\nチェストの中身を村人の交易に変換するデータパック  ","color":"dark_gray","bold":false,"italic":false,"underlined":false},{"text":"\\n\\n\\n\\n\\n\\n>> execute the function <<","color":"red","bold":true,"italic":true,"underlined":true,"hoverEvent":{"action":"show_text","contents":[{"text":"/execute as @e[type=villager,limit=1,sort=nearest] run function chest_to_villager:copy"}]},"clickEvent":{"action":"run_command","value":"/execute as @e[type=villager,limit=1,sort=nearest] run function chest_to_villager:copy"}}]','[{"text":"step0\\n導入成功のテキストを確認し、アイテムを手に入れます。","color":"dark_gray","bold":false,"italic":false,"underlined":false},{"text":"\\n\\n\\n\\n\\n\\n\\n\\n>> execute the function <<","color":"red","bold":true,"italic":true,"underlined":true,"hoverEvent":{"action":"show_text","contents":[{"text":"/function chest_to_villager:give_item"}]},"clickEvent":{"action":"run_command","value":"/function chest_to_villager:give_item"}}]','{"text":"step1\\n交易チェストの作成\\nチェストにアイテムを配置することで指定することが出来ます。  \\n左側の列から右へ順に変換されていきます。 \\n \\n上段は `buy`  \\n中段は `buyB`  \\n下段は `sell`  \\n","color":"dark_gray","bold":false,"italic":false,"underlined":false}','{"text":"step2 変換するチェストの指定 \\n入手したアイテムをチェストの上に設置すると、チェストが発光し数字が表示されます。","color":"dark_gray","bold":false,"italic":false,"underlined":false}','{"text":"複数のチェストを指定することができ、数字が小さいものから順番に変換されていきます。  \\n指定解除は、発光したチェストをたたくとできます。  \\nその際、解除したものより大きな数字は前にずれます。 ","color":"dark_gray","bold":false,"italic":false,"underlined":false}','[{"text":"step3 村人への変換\\nチェストを指定した状態で、村人を実行基準にfunctionを実行します。  \\n \\nこのコマンドを変換対象の村人の近くで実行します。  \\n対象にする","color":"dark_gray","bold":false,"italic":false,"underlined":false},{"text":"\\n\\n\\n\\n>> execute the function <<","color":"red","bold":true,"italic":true,"underlined":true,"hoverEvent":{"action":"show_text","contents":[{"text":"/execute as @e[type=villager,limit=1,sort=nearest] run function chest_to_villager:copy"}]},"clickEvent":{"action":"run_command","value":"/execute as @e[type=villager,limit=1,sort=nearest] run function chest_to_villager:copy"}}]','{"text":"## 注意事項\\n・`buy` と `buyB` が空白、もしくは `sell` が空白になるような列は変換されません。  \\n・チェストの1マス上のブロックは必ず空気ブロックに置き換えられます。  ","color":"dark_gray","bold":false,"italic":false,"underlined":false}'],title:"",rare:EX,CustomModelData:38} 1

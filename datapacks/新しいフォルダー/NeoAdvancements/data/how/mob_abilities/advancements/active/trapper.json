@@ -1,0 +1,33 @@
+{
+    "criteria": {
+        "found": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "nbt": "{Tags:[\"ca.trapper\"]}"
+                }
+            }
+        }
+    },
+    "display": {
+        "title": {
+            "text": "Trapper ≪罠≫                 ",
+            "color": "white"
+        },
+        "description": {
+            "text": "敵は、プレイヤーの速度を低下させ、傷つけるカルトラップの円錐を投げることができます。",
+            "color": "white"
+        },
+        "icon": {
+            "item": "minecraft:shears"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "rewards": {
+        "function": "cartographer_mob_abilities:descriptions/active/trapper"
+    },
+    "parent": "cartographer_mob_abilities:active/sweep"
+}

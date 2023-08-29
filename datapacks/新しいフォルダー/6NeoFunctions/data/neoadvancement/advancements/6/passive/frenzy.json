@@ -1,0 +1,35 @@
+{
+    "criteria": {
+        "find": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{CustomEnchantments:[{id:\"frenzy\"}]}"
+                    }
+                ]
+            }
+        }
+    },
+    "display": {
+        "title": {
+            "text": "Frenzy ≪熱狂≫                  ",
+            "color": "aqua"
+        },
+        "description": {
+            "color": "white",
+            "text": "モブを倒すと近接攻撃力が上昇し、時間経過で減少する。"
+        },
+        "icon": {
+            "item": "minecraft:blaze_powder"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "rewards": {
+        "function": "neoadvancement:6/descriptions/passive/frenzy"
+    },
+    "parent": "neoadvancement:6/passive/evasion"
+}

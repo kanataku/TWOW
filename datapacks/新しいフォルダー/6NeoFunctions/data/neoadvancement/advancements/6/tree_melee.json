@@ -1,0 +1,25 @@
+{
+    "display": {
+        "title": {
+            "text": "Melee ≪近接≫                   ",
+            "color": "yellow"
+        },
+        "description": {
+            "text": "近接武器に効果のあるエンチャント。(剣、斧、トライデントの殴りなど)",
+            "color": "white"
+        },
+        "icon": {
+            "item": "minecraft:iron_sword"
+        },
+        "frame": "goal",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "tick": {
+            "trigger": "minecraft:tick"
+        }
+    },
+    "parent": "neoadvancement:6/root"
+}

@@ -1,0 +1,33 @@
+{
+    "criteria": {
+        "found": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "nbt": "{Tags:[\"ca.ambush\"]}"
+                }
+            }
+        }
+    },
+    "display": {
+        "title": {
+            "text": "Ambush ≪待ち伏せ≫                 ",
+            "color": "white"
+        },
+        "description": {
+            "text": "敵はプレイヤーの背後にテレポートすることができる。テレポート後、短時間で攻撃不能になる。",
+            "color": "white"
+        },
+        "icon": {
+            "item": "minecraft:wither_skeleton_skull"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "rewards": {
+        "function": "cartographer_mob_abilities:descriptions/active/ambush"
+    },
+    "parent": "cartographer_mob_abilities:active/active_abilities"
+}

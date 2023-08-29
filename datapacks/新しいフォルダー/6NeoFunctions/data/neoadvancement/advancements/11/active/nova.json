@@ -1,0 +1,33 @@
+{
+    "criteria": {
+        "found": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "nbt": "{Tags:[\"ca.nova\"]}"
+                }
+            }
+        }
+    },
+    "display": {
+        "title": {
+            "text": "Nova Burst ≪魔法放出≫              ",
+            "color": "white"
+        },
+        "description": {
+            "text": "敵の周囲に魔力を放出し、近くのプレイヤーにダメージを与えることができる。",
+            "color": "white"
+        },
+        "icon": {
+            "item": "minecraft:blaze_powder"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "rewards": {
+        "function": "neoadvancement:11/descriptions/active/nova"
+    },
+    "parent": "neoadvancement:11/active/needle"
+}

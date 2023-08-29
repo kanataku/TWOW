@@ -1,0 +1,35 @@
+{
+    "display": {
+        "title": {
+            "text": "Frost ≪凍傷≫                   ",
+            "color": "aqua"
+        },
+        "description": {
+            "text": "この武器から発射された矢は、敵にスローネスを与える。",
+            "color": "white"
+        },
+        "icon": {
+            "item": "minecraft:snowball"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "find": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{CustomEnchantments:[{id:\"frost\"}]}"
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "neoadvancement:6/descriptions/ranged/frost"
+    },
+    "parent": "neoadvancement:6/ranged/fleetfoot"
+}

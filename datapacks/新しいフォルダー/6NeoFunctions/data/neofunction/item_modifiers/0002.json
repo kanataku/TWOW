@@ -1,0 +1,26 @@
+[
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      {
+        "text": "Rare:",
+        "color": "aqua",
+        "italic": false,
+        "extra": [
+          {
+            "text": "✯",
+            "color": "#ffe33b",
+            "italic": false,
+            "extra": [
+              {
+                "text": "✯",
+                "color": "#ffcc38"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

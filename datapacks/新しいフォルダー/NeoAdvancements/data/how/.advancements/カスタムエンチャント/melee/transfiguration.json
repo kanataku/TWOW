@@ -1,0 +1,35 @@
+{
+    "display": {
+        "title": {
+            "text": "Transfiguration ≪変身≫          ",
+            "color": "aqua"
+        },
+        "description": {
+            "color": "white",
+            "text": "敵対するモブにヒットしたとき、低確率でそのモブをニワトリにする。"
+        },
+        "icon": {
+            "item": "minecraft:egg"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "find": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{CustomEnchantments:[{id:\"transfiguration\"}]}"
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "cartographer_custom_enchantments:descriptions/melee/transfiguration"
+    },
+    "parent": "cartographer_custom_enchantments:melee/surging_strike"
+}

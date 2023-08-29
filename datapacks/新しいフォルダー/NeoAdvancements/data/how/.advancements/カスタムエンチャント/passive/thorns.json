@@ -1,0 +1,35 @@
+{
+    "display": {
+        "title": {
+            "text": "Thorns ≪棘の鎧≫                  ",
+            "color": "aqua"
+        },
+        "description": {
+            "text": "使用者が攻撃を受けたとき、攻撃者に報復し、ダメージを与える。鎧が命中時の近接攻撃効果エンチャント（Fire Aspectなど）を持っている場合、それらも適用される。",
+            "color": "white"
+        },
+        "icon": {
+            "item": "minecraft:dead_bush"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "find": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{CustomEnchantments:[{id:\"thorns\"}]}"
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "cartographer_custom_enchantments:descriptions/passive/thorns"
+    },
+    "parent": "cartographer_custom_enchantments:passive/spurs"
+}

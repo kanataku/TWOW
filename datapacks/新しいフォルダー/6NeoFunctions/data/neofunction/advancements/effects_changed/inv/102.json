@@ -1,0 +1,17 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "effects": {
+          "minecraft:invisibility": {
+            "amplifier": 102
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "neofunction:asset/skill/102"
+  }
+}

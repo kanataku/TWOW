@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Lore:['{\"text\":\"投げると対応する番号のエンティティが召喚される。\",\"color\":\"white\"}'],Name:'{\"text\":\"スペルスクロール=サモン【No.12】\",\"color\":\"dark_purple\",\"bold\":true,\"italic\":false,\"underlined\":true}'},summon:12,rare:3,CustomModelData:192}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

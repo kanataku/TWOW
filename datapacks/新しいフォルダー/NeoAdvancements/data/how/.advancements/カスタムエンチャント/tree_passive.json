@@ -1,0 +1,25 @@
+{
+    "criteria": {
+        "tick": {
+            "trigger": "minecraft:tick"
+        }
+    },
+    "display": {
+        "title": {
+            "text": "Passives ≪パッシブ≫                ",
+            "color": "yellow"
+        },
+        "description": {
+            "text": "持っている間に発動するエンチャント、または鎧に発動するエンチャント。",
+            "color": "white"
+        },
+        "icon": {
+            "item": "minecraft:leather_chestplate"
+        },
+        "frame": "goal",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "parent": "cartographer_custom_enchantments:root"
+}

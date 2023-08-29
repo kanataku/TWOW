@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:map",
+            "nbt": "{display:{MapColor:0},CustomModelData:12,map:12}"
+        },
+        "title": [
+            {
+                "translate": "碇泊の虚数領域 -PointNemo-                                ",
+                "color": "dark_purple",
+                "bold": true
+            }
+        ],
+        "description": {
+            "translate": "→【タキオンエリア】に到達する。\n報酬：ネザースター×128",
+                "color": "gold"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+  "parent": "neoadvancement:2/11",
+  "criteria": {
+    "dummy": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

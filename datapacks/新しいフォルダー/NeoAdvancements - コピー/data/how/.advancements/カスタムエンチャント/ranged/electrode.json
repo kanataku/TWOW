@@ -1,0 +1,35 @@
+{
+    "display": {
+        "title": {
+            "text": "Electrode ≪感電≫              ",
+            "color": "aqua"
+        },
+        "description": {
+            "text": "この武器から発射された矢は、敵にShocked ≪ショック≫ を与える。",
+            "color": "white"
+        },
+        "icon": {
+            "item": "minecraft:prismarine_crystals"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "find": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{CustomEnchantments:[{id:\"electrode\"}]}"
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "cartographer_custom_enchantments:descriptions/ranged/electrode"
+    },
+    "parent": "cartographer_custom_enchantments:ranged/deadeye"
+}

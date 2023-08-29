@@ -1,0 +1,62 @@
+{
+    "display": {
+        "title": {
+            "text": "Possess ≪憑依≫                 ",
+            "color": "#CC73FF"
+        },
+        "description": {
+            "text": "被弾したMOBは短時間盲目になり、その後、一定時間、最も近くにいる敵対的なモブを攻撃する。",
+            "color": "white"
+        },
+        "icon": {
+            "item": "minecraft:lime_concrete_powder"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "find1": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{CustomEnchantments:[{id:\"possession\"}]}"
+                    }
+                ]
+            }
+        },
+        "find2": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+              "items": [
+                {
+                  "nbt": "{CustomEnchantments:[{id:\"possess\"}]}"
+                }
+              ]
+            }
+          },
+        "find5": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{CustomPotionEffects:[{Id:9b,Amplifier:19b}]}"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "find1",
+            "find2",
+            "find5"
+        ]
+    ],
+    "rewards": {
+        "function": "neoadvancement:13/descriptions/possess"
+    },
+    "parent": "neoadvancement:13/infected"
+}

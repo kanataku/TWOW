@@ -1,0 +1,1 @@
+summon <1.ベースID> ~ ~ ~ {<2.NBTtag>,Tags:[<lv>,<custom>],DeathLootTable:"neofunction:entity/ID"}

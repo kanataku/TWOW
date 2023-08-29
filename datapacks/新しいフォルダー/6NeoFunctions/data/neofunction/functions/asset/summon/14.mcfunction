@@ -1,0 +1,1 @@
+summon zombie ~ ~ ~ {Tags:["ghost"],CustomName:'{"text":"真祖の星辰体","color":"light_purple","bold":true,"italic":false,"underlined":true}',ArmorItems:[{},{},{},{id:'minecraft:oak_planks',Count:1b}],Tags:[lv6,ghost],DeathLootTable:"neofunction:entity/14"}

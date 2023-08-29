@@ -1,0 +1,40 @@
+{
+    "display": {
+        "title": {
+            "text": "Blindness ≪盲目≫               ",
+            "color": "#CC73FF"
+        },
+        "description": {
+            "text": "追従範囲と視認範囲が大幅に減少する。",
+            "color": "white"
+        },
+        "icon": {
+            "item": "minecraft:black_concrete"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "find5": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{CustomPotionEffects:[{Id:15b,Amplifier:0b}]}"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "find5"
+        ]
+    ],
+    "rewards": {
+        "function": "cartographer_custom_statuses:descriptions/blindness"
+    },
+    "parent": "cartographer_custom_statuses:bleed"
+}

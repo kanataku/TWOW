@@ -1,0 +1,5 @@
+{
+  "exhaustion": 40.0,####### 消耗レベルが4.0減少し満腹度または隠し満腹度が1減少する。
+  "message_id": "死因だにょーん",
+  "scaling": "when_caused_by_living_non_player"
+}

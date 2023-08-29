@@ -1,0 +1,73 @@
+{
+    "display": {
+        "title": {
+            "text": "Stunned ≪スタン≫                 ",
+            "color": "#CC73FF"
+        },
+        "description": {
+            "text": "移動、攻撃、スキルの使用ができなくなる。チャネリング中のスキルは中断される。",
+            "color": "white"
+        },
+        "icon": {
+            "item": "minecraft:yellow_concrete"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "found1": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+              "items": [
+                {
+                  "nbt": "{CustomEnchantments:[{id:\"stunning\"}]}"
+                }
+              ]
+            }
+          },
+          "found2": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+              "items": [
+                {
+                  "nbt": "{CustomEnchantments:[{id:\"flash\"}]}"
+                }
+              ]
+            }
+          },
+          "found6": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+              "items": [
+                {
+                  "nbt": "{CustomEnchantments:[{id:\"splintering\"}]}"
+                }
+              ]
+            }
+          },
+        "found7": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{CustomPotionEffects:[{Id:9b,Amplifier:10b}]}"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "found1",
+            "found2",
+            "found6",
+            "found7"
+        ]
+    ],
+    "rewards": {
+        "function": "neoadvancement:13/descriptions/stunned"
+    },
+    "parent": "neoadvancement:13/shock"
+}

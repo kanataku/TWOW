@@ -1,0 +1,35 @@
+{
+    "criteria": {
+        "find": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{CustomEnchantments:[{id:\"energetic\"}]}"
+                    }
+                ]
+            }
+        }
+    },
+    "display": {
+        "title": {
+            "text": "Energetic ≪活発≫               ",
+            "color": "aqua"
+        },
+        "description": {
+            "color": "white",
+            "text": "モブを倒すと採掘・攻撃速度が上昇し、時間経過で採掘・攻撃速度が減少する。"
+        },
+        "icon": {
+            "item": "minecraft:honeycomb"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "rewards": {
+        "function": "cartographer_custom_enchantments:descriptions/passive/energetic"
+    },
+    "parent": "cartographer_custom_enchantments:passive/concealed"
+}
