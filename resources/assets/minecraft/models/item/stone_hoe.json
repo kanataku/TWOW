@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "minecraft:item/stone_hoe"
+  },
+
+  "overrides": [
+    {"predicate": {"custom_model_data":1}, "model": "minecraft:item/stone_hoe"},
+    {"predicate": {"custom_model_data":7}, "model": "minecraft:item/cmd/7"},
+    {"predicate": {"custom_model_data":8}, "model": "minecraft:item/stone_hoe"}
+  ]
+}

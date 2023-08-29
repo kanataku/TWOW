@@ -1,0 +1,27 @@
+#サンプル
+{
+  "parent": "minecraft:item/generated or handheld_rod",	//持ち方
+  "textures": {
+    "layer0": "minecraft:item/beef"	//アイテム名
+  },
+
+  "overrides": [
+    {"predicate": {"custom_model_data":1}, "model": "minecraft:item/cmd/514"}
+  ]
+}
+
+
+
+
+
+
+
+
+###追加部分解説
+{
+  "overrides": [
+    {"predicate": {"custom_model_data":0}, "model": "minecraft:item/beef"},	//0が全体（バニラアイテム）に割り当てたいやつ（省略可）
+    {"predicate": {"custom_model_data":1}, "model": "minecraft:item/cmd/<Number>"},	//置き換えを指定
+    {"predicate": {"custom_model_data":2}, "model": "minecraft:item/cmd/beef"}	//それ以降を変えたくなければ閉じる
+  ]
+}

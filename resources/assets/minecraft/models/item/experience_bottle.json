@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/beef"
+  },
+  "overrides": [
+    {"predicate": {"custom_model_data":0}, "model": "minecraft:item/cmd/experience_bottle"},
+    {"predicate": {"custom_model_data":1}, "model": "minecraft:item/experience_bottle"},
+    {"predicate": {"custom_model_data":5}, "model": "minecraft:item/cmd/5"},
+    {"predicate": {"custom_model_data":6}, "model": "minecraft:item/experience_bottle"}
+  ]
+}

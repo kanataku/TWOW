@@ -1,0 +1,19 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/potion_overlay",
+        "layer1": "item/potion"
+    },
+	"overrides": [
+    {"predicate": {"custom_model_data":0}, "model": "minecraft:item/cmd/min"},
+    {"predicate": {"custom_model_data":1}, "model": "minecraft:item/cmd/elixir"},
+    {"predicate": {"custom_model_data":2}, "model": "minecraft:item/cmd/max"},
+    {"predicate": {"custom_model_data":3}, "model": "minecraft:item/cmd/mid"},
+    {"predicate": {"custom_model_data":4}, "model": "minecraft:item/cmd/min"},
+    {"predicate": {"custom_model_data":173}, "model": "minecraft:item/cmd/173"},
+    {"predicate": {"custom_model_data":174}, "model": "minecraft:item/cmd/174"},
+    {"predicate": {"custom_model_data":175}, "model": "minecraft:item/cmd/175"},
+    {"predicate": {"custom_model_data":176}, "model": "minecraft:item/cmd/mid"}
+
+	]
+}

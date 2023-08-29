@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:item/handheld_rod",
+  "textures": {
+    "layer0": "minecraft:item/diamond_pickaxe"
+  },
+
+  "overrides": [
+    {"predicate": {"custom_model_data":1}, "model": "minecraft:item/diamond_pickaxe"},
+    {"predicate": {"custom_model_data":999}, "model": "minecraft:item/cmd/0"},
+    {"predicate": {"custom_model_data":1000}, "model": "minecraft:item/diamond_pickaxe"}
+  ]
+}

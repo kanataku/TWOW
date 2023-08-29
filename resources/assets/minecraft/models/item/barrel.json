@@ -1,0 +1,16 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "bottom": "minecraft:block/barrel_bottom",
+    "side": "minecraft:block/barrel_side",
+    "top": "minecraft:block/barrel_top"
+  },
+  "overrides": [
+    {"predicate": {"custom_model_data":0}, "model": "minecraft:item/barrel"},
+    {"predicate": {"custom_model_data":24}, "model": "minecraft:item/cmd/24"},
+    {"predicate": {"custom_model_data":25}, "model": "minecraft:item/cmd/25"},
+    {"predicate": {"custom_model_data":26}, "model": "minecraft:item/cmd/26"},
+    {"predicate": {"custom_model_data":27}, "model": "minecraft:item/cmd/27"},
+    {"predicate": {"custom_model_data":28}, "model": "minecraft:item/barrel"}
+  ]
+}

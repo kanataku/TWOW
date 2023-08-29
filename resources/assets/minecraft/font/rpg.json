@@ -1,0 +1,182 @@
+{
+    "providers": [
+        {
+            "type": "ttf",
+            "file": "minecraft:custom.ttf",
+            "shift": [0.0, 0.0],
+            "size": 16.0,
+            "oversample": 1.0
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:font/heart.png",
+            "ascent": 8,
+            "height": 9,
+            "chars": [
+                "\uE000"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:font/recipe.png",
+            "ascent": 8,
+            "height": 9,
+            "chars": [
+                "\uE001"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:font/red_recipe.png",
+            "ascent": 8,
+            "height": 9,
+            "chars": [
+                "\uE002"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:font/orange_recipe.png",
+            "ascent": 8,
+            "height": 9,
+            "chars": [
+                "\uE003"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:font/yellow_recipe.png",
+            "ascent": 8,
+            "height": 9,
+            "chars": [
+                "\uE004"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:font/lime_recipe.png",
+            "ascent": 8,
+            "height": 9,
+            "chars": [
+                "\uE005"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:font/aqua_recipe.png",
+            "ascent": 8,
+            "height": 9,
+            "chars": [
+                "\uE006"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:font/blue_recipe.png",
+            "ascent": 8,
+            "height": 9,
+            "chars": [
+                "\uE007"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:font/dark_blue_recipe.png",
+            "ascent": 8,
+            "height": 9,
+            "chars": [
+                "\uE008"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:font/purple_recipe.png",
+            "ascent": 8,
+            "height": 9,
+            "chars": [
+                "\uE009"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:font/pink_recipe.png",
+            "ascent": 8,
+            "height": 9,
+            "chars": [
+                "\uE00A"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:font/white_recipe.png",
+            "ascent": 8,
+            "height": 9,
+            "chars": [
+                "\uE00B"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:font/gray_recipe.png",
+            "ascent": 8,
+            "height": 9,
+            "chars": [
+                "\uE00C"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:font/black_recipe.png",
+            "ascent": 8,
+            "height": 9,
+            "chars": [
+                "\uE00D"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:font/map_1.png",
+            "ascent": 128,
+            "height": 129,
+            "chars": [
+                "\uE011"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:font/map_2.png",
+            "ascent": 128,
+            "height": 129,
+            "chars": [
+                "\uE012"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:font/map_3.png",
+            "ascent": 128,
+            "height": 129,
+            "chars": [
+                "\uE013"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:font/map_4.png",
+            "ascent": 128,
+            "height": 129,
+            "chars": [
+                "\uE014"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:font/map_full.png",
+            "ascent": 128,
+            "height": 129,
+            "chars": [
+                "\uE015"
+            ]
+        }
+    ]
+}

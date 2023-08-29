@@ -1,0 +1,14 @@
+{
+  "parent": "minecraft:item/handheld_rod",
+  "textures": {
+    "layer0": "minecraft:item/carrot_on_a_stick"
+  },
+
+  "overrides": [
+    {"predicate": {"custom_model_data":0}, "model": "minecraft:item/cmd/88"},
+    {"predicate": {"custom_model_data":1}, "model": "minecraft:item/carrot_on_a_stick"},
+    {"predicate": {"custom_model_data":2}, "model": "minecraft:item/cmd/88"},
+    {"predicate": {"custom_model_data":123}, "model": "minecraft:item/cmd/123"},
+    {"predicate": {"custom_model_data":124}, "model": "minecraft:item/cmd/88"}
+  ]
+}

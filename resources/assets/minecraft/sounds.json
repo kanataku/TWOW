@@ -1,0 +1,93 @@
+{
+    "neo/se/sr": {
+      "sounds": [
+        {
+          "name": "neo/se/sr"
+        }
+      ]
+    },
+    "test2": {
+      "sounds": [
+        {
+          "name": "neo/bgm/sound2"
+        }
+      ]
+        },
+    "test3": {
+      "sounds": [
+        {
+          "name": "neo/bgm/sound3"
+        }
+      ]
+        },
+    "test4": {
+      "sounds": [
+        {
+          "name": "neo/bgm/sound4"
+        }
+      ]
+        },
+    "test5": {
+      "sounds": [
+        {
+          "name": "neo/bgm/sound5"
+        }
+      ]
+        },
+    "banbard": {
+      "sounds": [
+        {
+          "name": "neo/bgm/banbard"
+        }
+      ]
+        },
+    "snowblind": {
+      "sounds": [
+        {
+          "name": "neo/bgm/snowblind"
+        }
+      ]
+        },
+    "lunatic": {
+      "sounds": [
+        {
+          "name": "neo/bgm/lunatic"
+        }
+      ]
+        },
+    "flamewall": {
+      "sounds": [
+        {
+          "name": "neo/bgm/flamewall"
+        }
+      ]
+        },
+    "himei": {
+      "sounds": [
+        {
+          "name": "neo/bgm/himei"
+        }
+      ]
+        },
+    "trickstyle": {
+      "sounds": [
+        {
+          "name": "neo/bgm/trickstyle"
+        }
+      ]
+        },
+    "carol": {
+      "sounds": [
+        {
+          "name": "neo/bgm/carol"
+        }
+      ]
+        },
+    "catharsis": {
+      "sounds": [
+        {
+          "name": "neo/bgm/catharsis"
+        }
+      ]
+    }
+  }

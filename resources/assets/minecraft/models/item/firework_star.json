@@ -1,0 +1,16 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/firework_star",
+    "layer1": "item/firework_star_overlay"
+  },
+
+  "overrides": [
+    {"predicate": {"custom_model_data":0}, "model": "minecraft:item/firework_star"},
+    {"predicate": {"custom_model_data":1}, "model": "minecraft:item/firework_star"},
+    {"predicate": {"custom_model_data":2}, "model": "minecraft:item/cmd/2"},
+    {"predicate": {"custom_model_data":3}, "model": "minecraft:item/cmd/3"},
+    {"predicate": {"custom_model_data":4}, "model": "minecraft:item/cmd/4"},
+    {"predicate": {"custom_model_data":5}, "model": "minecraft:item/firework_star"}
+  ]
+}
