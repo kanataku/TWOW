@@ -1,0 +1,35 @@
+{
+    "display": {
+        "title": {
+            "text": "Expose ≪露出≫                ",
+            "color": "aqua"
+        },
+        "description": {
+            "color": "white",
+            "text": "この武器から発射された矢は、敵にExposed ≪露出≫ を与える。"
+        },
+        "icon": {
+            "item": "minecraft:glowstone_dust"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "find": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{CustomEnchantments:[{id:\"expose\"}]}"
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "neoadvancement:6/descriptions/ranged/expose"
+    },
+    "parent": "neoadvancement:6/ranged/explosive"
+}

@@ -1,0 +1,62 @@
+{
+    "display": {
+        "title": {
+            "text": "Infection ≪感染≫               ",
+            "color": "#CC73FF"
+        },
+        "description": {
+            "text": "被弾したMOBは毎秒ダメージを受ける。また、失われた体力の量に応じてスローや弱体化する。彼らが死ぬと、感染していない敵にも効果が及ぶ。",
+            "color": "white"
+        },
+        "icon": {
+            "item": "minecraft:black_concrete_powder"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "find1": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{CustomEnchantments:[{id:\"infection\"}]}"
+                    }
+                ]
+            }
+        },
+        "find2": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+              "items": [
+                {
+                  "nbt": "{CustomEnchantments:[{id:\"infect\"}]}"
+                }
+              ]
+            }
+          },
+        "find5": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{CustomPotionEffects:[{Id:9b,Amplifier:12b}]}"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "find1",
+            "find2",
+            "find5"
+        ]
+    ],
+    "rewards": {
+        "function": "neoadvancement:13/descriptions/infected"
+    },
+    "parent": "neoadvancement:13/vulnerability"
+}

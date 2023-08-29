@@ -1,0 +1,35 @@
+{
+    "criteria": {
+        "find": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{CustomEnchantments:[{id:\"evasion\"}]}"
+                    }
+                ]
+            }
+        }
+    },
+    "display": {
+        "title": {
+            "text": "Evasion ≪回避≫                 ",
+            "color": "aqua"
+        },
+        "description": {
+            "text": "レベル毎に小確率で攻撃をかわし、攻撃を完全に無効化する効果を付与する。かわした時、近くの敵の目を見えなくする。",
+            "color": "white"
+        },
+        "icon": {
+            "item": "minecraft:feather"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "rewards": {
+        "function": "neoadvancement:6/descriptions/passive/evasion"
+    },
+    "parent": "neoadvancement:6/passive/energetic"
+}

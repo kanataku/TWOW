@@ -1,0 +1,35 @@
+{
+    "criteria": {
+        "find": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{CustomEnchantments:[{id:\"current\"}]}"
+                    }
+                ]
+            }
+        }
+    },
+    "display": {
+        "title": {
+            "text": "Current ≪現行≫                 ",
+            "color": "aqua"
+        },
+        "description": {
+            "text": "範囲攻撃の場合、トライデントは犠牲者をその位置まで引きずり込む（忠誠と組み合わせると投擲者の位置まで戻る）。",
+            "color": "white"
+        },
+        "icon": {
+            "item": "minecraft:trident"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "rewards": {
+        "function": "neoadvancement:6/descriptions/ranged/current"
+    },
+    "parent": "neoadvancement:6/tree_ranged"
+}

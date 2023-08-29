@@ -1,0 +1,27 @@
+{
+    "criteria": {
+        "tick": {
+            "trigger": "minecraft:tick"
+        }
+    },
+    "display": {
+        "title": {
+            "text": "状態 -CustomEffect-                                ",
+            "color": "white",
+            "bold": true
+        },
+        "description": {
+            "text": "不思議なステータス効果を使用するたびに、このタブはその短い説明を作成します。",
+            "color": "white"
+        },
+        "icon": {
+            "item": "minecraft:brewing_stand",
+            "nbt": "{Enchantments:[{}]}"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false,
+        "background": "minecraft:textures/block/bone_block_side.png"
+    }
+}

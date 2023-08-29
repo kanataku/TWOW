@@ -1,0 +1,35 @@
+{
+    "display": {
+        "title": {
+            "text": "Fleetfoot ≪俊敏化≫               ",
+            "color": "aqua"
+        },
+        "description": {
+            "text": "リロード中や引き戻し中は、通常の歩行速度で移動します。",
+            "color": "white"
+        },
+        "icon": {
+            "item": "minecraft:feather"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "find": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{CustomEnchantments:[{id:\"fleetfoot\"}]}"
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "neoadvancement:6/descriptions/ranged/fleetfoot"
+    },
+    "parent": "neoadvancement:6/ranged/flash"
+}

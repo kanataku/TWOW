@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:filled_map",
+            "nbt": "{display:{MapColor:0}}"
+        },
+        "title": [
+            {
+                "translate": "硝煙の火山帝国 -VolValRose-                                ",
+                "color": "#c3d825",
+                "bold": true
+            }
+        ],
+        "description": {
+            "translate": "→【ボルバロッサ】に到達する。\n報酬：ネザースター×128",
+                "color": "gold"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+  "parent": "neoadvancement:2/5",
+  "criteria": {
+    "dummy": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

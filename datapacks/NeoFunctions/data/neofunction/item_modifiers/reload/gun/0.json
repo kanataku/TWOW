@@ -1,0 +1,6 @@
+[
+  {
+    "function": "minecraft:set_nbt",
+    "tag": "{display:{Name:'{\"text\":\"GUN <0>\",\"bold\":true}'},mag:0,ChargedProjectiles:[],Charged:0b}"
+  }
+]

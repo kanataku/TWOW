@@ -1,0 +1,33 @@
+{
+    "display": {
+        "title": {
+            "text": "Smash ≪粉砕≫                   ",
+            "color": "white"
+        },
+        "description": {
+            "color": "white",
+            "text": "敵は空中に飛び出すことができる。着地すると前方の地面を粉砕し、当たったプレイヤーにダメージを与える。"
+        },
+        "icon": {
+            "item": "minecraft:iron_shovel"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "found": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "nbt": "{Tags:[\"ca.smash\"]}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "neoadvancement:11/descriptions/active/smash"
+    },
+    "parent": "neoadvancement:11/active/rift"
+}

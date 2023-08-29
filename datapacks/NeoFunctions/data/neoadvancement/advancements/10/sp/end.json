@@ -1,0 +1,32 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:allay_spawn_egg",
+            "nbt": "{Enchantments:[{}],CustomModelData:2}"
+        },
+        "title": [
+            {
+                "translate": "冀求力 -SoulPressure-                                ",
+                "color": "white",
+                "bold": true
+            }
+        ],
+        "description": {
+            "translate": "→ステータスを上昇させる。\n報酬：ネザースター×128",
+                "color": "gold"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+  "parent": "neoadvancement:10/sp/5",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:tick"
+    }
+  },
+  "rewards": {
+    "function": "neoadvancement:give"
+  }
+}

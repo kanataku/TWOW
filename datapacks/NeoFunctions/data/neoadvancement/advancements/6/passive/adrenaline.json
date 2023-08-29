@@ -1,0 +1,35 @@
+{
+    "display": {
+        "title": {
+            "text": "Adrenaline ≪活力≫              ",
+            "color": "aqua"
+        },
+        "description": {
+            "text": "モブを倒すと移動速度が上昇し、時間経過で移動速度が減少する。",
+            "color": "white"
+        },
+        "icon": {
+            "item": "minecraft:sugar"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "find": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{CustomEnchantments:[{id:\"adrenaline\"}]}"
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "neoadvancement:6/descriptions/passive/adrenaline"
+    },
+    "parent": "neoadvancement:6/tree_passive"
+}

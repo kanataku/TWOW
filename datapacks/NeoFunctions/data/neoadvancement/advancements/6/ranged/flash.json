@@ -1,0 +1,35 @@
+{
+    "display": {
+        "title": {
+            "text": "Flash ≪閃光≫                   ",
+            "color": "aqua"
+        },
+        "description": {
+            "text": "この武器から発射される矢は敵をスタンさせることができる。スタンの効果は矢のチャージ量に依存する。",
+            "color": "white"
+        },
+        "icon": {
+            "item": "minecraft:end_rod"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "find": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{CustomEnchantments:[{id:\"flash\"}]}"
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "neoadvancement:6/descriptions/ranged/flash"
+    },
+    "parent": "neoadvancement:6/ranged/expose"
+}

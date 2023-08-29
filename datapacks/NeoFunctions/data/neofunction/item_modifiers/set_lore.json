@@ -1,0 +1,12 @@
+{
+  "function": "minecraft:set_lore",
+  "entity": "this",
+  "lore": [
+    {
+      "text": "set lore",
+      "color": "white",
+      "italic": false
+    }
+  ],
+  "replace": false
+}

@@ -1,0 +1,35 @@
+{
+    "display": {
+        "title": {
+            "text": "Duelist ≪決闘者≫                 ",
+            "color": "aqua"
+        },
+        "description": {
+            "color": "white",
+            "text": "この武器による近接攻撃は、\"Illager\" のモブに追加ダメージを与える。"
+        },
+        "icon": {
+            "item": "minecraft:iron_sword"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "find": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{CustomEnchantments:[{id:\"duelist\"}]}"
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "neoadvancement:6/descriptions/melee/duelist"
+    },
+    "parent": "neoadvancement:6/melee/bleeding"
+}

@@ -1,0 +1,35 @@
+{
+    "criteria": {
+        "find": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{CustomEnchantments:[{id:\"infection\"}]}"
+                    }
+                ]
+            }
+        }
+    },
+    "display": {
+        "title": {
+            "text": "Infection ≪感染≫                   ",
+            "color": "aqua"
+        },
+        "description": {
+            "text": "この武器による近接攻撃はInfection ≪感染≫ を引き起こす。",
+            "color": "white"
+        },
+        "icon": {
+            "item": "minecraft:rotten_flesh"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "rewards": {
+        "function": "neoadvancement:6/descriptions/melee/infection"
+    },
+    "parent": "neoadvancement:6/melee/hunter"
+}

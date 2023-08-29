@@ -1,0 +1,35 @@
+{
+    "criteria": {
+        "find": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{CustomEnchantments:[{id:\"exposing\"}]}"
+                    }
+                ]
+            }
+        }
+    },
+    "display": {
+        "title": {
+            "text": "Exposing ≪露出≫               ",
+            "color": "aqua"
+        },
+        "description": {
+            "text": "この武器による近接攻撃は、Exposed ≪露出≫ を与える。",
+            "color": "white"
+        },
+        "icon": {
+            "item": "minecraft:glowstone_dust"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "rewards": {
+        "function": "neoadvancement:6/descriptions/melee/exposing"
+    },
+    "parent": "neoadvancement:6/melee/executioner"
+}

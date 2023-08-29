@@ -1,0 +1,1 @@
+execute as @s at @s on vehicle positioned as @s at @s on passengers run tp @s ~ ~ ~ ~ 0

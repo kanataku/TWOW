@@ -1,0 +1,33 @@
+{
+    "display": {
+        "title": {
+            "text": "Fireballer ≪ファイヤーボーラー≫           ",
+            "color": "white"
+        },
+        "description": {
+            "text": "通常弾の代わりに火の玉を発射する。",
+            "color": "white"
+        },
+        "icon": {
+            "item": "minecraft:fire_charge"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "found": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "nbt": "{Tags:[\"ca.shoot_fireball\"]}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "neoadvancement:11/descriptions/passive/projectile/fireball"
+    },
+    "parent": "neoadvancement:11/passive/projectile/fire_charge"
+}

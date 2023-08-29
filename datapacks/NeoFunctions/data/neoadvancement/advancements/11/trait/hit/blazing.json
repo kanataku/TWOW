@@ -1,0 +1,33 @@
+{
+    "display": {
+        "title": {
+            "text": "Blazing ≪炎上≫                 ",
+            "color": "white"
+        },
+        "description": {
+            "text": "モブの攻撃や効果で炎が発生する。",
+            "color": "white"
+        },
+        "icon": {
+            "item": "minecraft:blaze_powder"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "found": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "nbt": "{Tags:[\"ca.blazing\"]}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "neoadvancement:11/descriptions/trait/hit/blazing"
+    },
+    "parent": "neoadvancement:11/trait/trait_abilities"
+}

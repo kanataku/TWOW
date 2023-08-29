@@ -1,0 +1,33 @@
+{
+    "criteria": {
+        "found": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "nbt": "{Tags:[\"ca.duplicator\"]}"
+                }
+            }
+        }
+    },
+    "display": {
+        "title": {
+            "text": "Duplicator ≪分身≫              ",
+            "color": "white"
+        },
+        "description": {
+            "text": "敵は自分自身のコピーを作成することができる。コピーは体力が少なく、時間が経つと消え、殺されると爆発する。",
+            "color": "white"
+        },
+        "icon": {
+            "item": "minecraft:phantom_membrane"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "rewards": {
+        "function": "neoadvancement:11/descriptions/active/duplicator"
+    },
+    "parent": "neoadvancement:11/active/cloaker"
+}

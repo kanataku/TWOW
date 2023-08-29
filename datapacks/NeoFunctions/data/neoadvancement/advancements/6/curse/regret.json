@@ -1,0 +1,35 @@
+{
+    "display": {
+        "title": {
+            "text": "Curse of Regret ≪後悔の呪い≫         ",
+            "color": "red"
+        },
+        "description": {
+            "text": "使用者はこのアイテムを使用するとき、ダメージを受ける。レベルが高いほど、より大きなダメージを受ける。",
+            "color": "white"
+        },
+        "icon": {
+            "item": "minecraft:redstone"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "find": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{CustomEnchantments:[{id:\"curse_regret\"}]}"
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "neoadvancement:6/descriptions/curse/regret"
+    },
+    "parent": "neoadvancement:6/curse/malevolence"
+}

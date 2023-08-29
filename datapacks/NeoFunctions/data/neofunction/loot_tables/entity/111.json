@@ -1,0 +1,79 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 663,
+          "name": "minecraft:air"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 256,
+          "name": "minecraft:barrel",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'[{\"text\":\"||\",\"color\":\"white\",\"bold\":true,\"italic\":false,\"underlined\":true,\"strikethrough\":false,\"obfuscated\":true},{\"text\":\" レアルート \",\"color\":\"aqua\",\"bold\":true,\"italic\":false,\"underlined\":true,\"strikethrough\":false,\"obfuscated\":false},{\"text\":\"||\",\"color\":\"white\",\"bold\":true,\"italic\":false,\"underlined\":true,\"strikethrough\":false,\"obfuscated\":true}]',Lore:['[{\"text\":\"討伐時に敵が落とした\",\"color\":\"gray\",\"bold\":false,\"italic\":false},{\"text\":\"戦利品\",\"color\":\"dark_aqua\",\"bold\":true,\"italic\":false}]','[{\"text\":\"開封すると\",\"color\":\"gray\",\"bold\":false,\"italic\":false},{\"text\":\"高レアリティ\",\"color\":\"light_purple\",\"bold\":true,\"italic\":false},{\"text\":\"のアイテムが手に入る\",\"color\":\"gray\",\"bold\":false,\"italic\":false}]','[{\"text\":\"幸運値\",\"color\":\"green\",\"bold\":true,\"italic\":false},{\"text\":\"が大きいほど出やすくなり、\",\"color\":\"gray\",\"bold\":false,\"italic\":false}]','[{\"text\":\"解析装置や鑑定スキル\",\"color\":\"dark_blue\",\"bold\":false,\"italic\":false,\"underlined\":true},{\"text\":\"を使用すると、\",\"color\":\"gray\",\"bold\":false,\"italic\":false,\"underlined\":false}]','{\"text\":\"より良いアイテムが手にはいる。\",\"color\":\"gray\",\"bold\":false,\"italic\":false}']},CustomModelData:24,rare:2b,Enchantments:[{}],BlockEntityTag:{LootTable:\"neofunction:box/rare2\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 64,
+          "quality": 1,
+          "name": "minecraft:barrel",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'[{\"text\":\"|||\",\"color\":\"white\",\"bold\":true,\"italic\":false,\"underlined\":true,\"strikethrough\":false,\"obfuscated\":true},{\"text\":\" レガシールート \",\"color\":\"dark_aqua\",\"bold\":true,\"italic\":false,\"underlined\":true,\"strikethrough\":false,\"obfuscated\":false},{\"text\":\"|||\",\"color\":\"white\",\"bold\":true,\"italic\":false,\"underlined\":true,\"strikethrough\":false,\"obfuscated\":true}]',Lore:['[{\"text\":\"討伐時に敵が落とした\",\"color\":\"gray\",\"bold\":false,\"italic\":false},{\"text\":\"戦利品\",\"color\":\"dark_aqua\",\"bold\":true,\"italic\":false}]','[{\"text\":\"開封すると\",\"color\":\"gray\",\"bold\":false,\"italic\":false},{\"text\":\"高レアリティ\",\"color\":\"light_purple\",\"bold\":true,\"italic\":false},{\"text\":\"のアイテムが手に入る\",\"color\":\"gray\",\"bold\":false,\"italic\":false}]','[{\"text\":\"幸運値\",\"color\":\"green\",\"bold\":true,\"italic\":false},{\"text\":\"が大きいほど出やすくなり、\",\"color\":\"gray\",\"bold\":false,\"italic\":false}]','[{\"text\":\"解析装置や鑑定スキル\",\"color\":\"dark_blue\",\"bold\":false,\"italic\":false,\"underlined\":true},{\"text\":\"を使用すると、\",\"color\":\"gray\",\"bold\":false,\"italic\":false,\"underlined\":false}]','{\"text\":\"より良いアイテムが手にはいる。\",\"color\":\"gray\",\"bold\":false,\"italic\":false}']},CustomModelData:25,rare:3b,Enchantments:[{}],BlockEntityTag:{LootTable:\"neofunction:box/rare3\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 8,
+          "quality": 6,
+          "name": "minecraft:barrel",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'[{\"text\":\"|||||\",\"color\":\"white\",\"bold\":true,\"italic\":false,\"underlined\":true,\"strikethrough\":false,\"obfuscated\":true},{\"text\":\"  スーパーレアルート \",\"color\":\"dark_purple\",\"bold\":true,\"italic\":false,\"underlined\":true,\"strikethrough\":false,\"obfuscated\":false},{\"text\":\"|||||\",\"color\":\"white\",\"bold\":true,\"italic\":false,\"underlined\":true,\"strikethrough\":false,\"obfuscated\":true}]',Lore:['[{\"text\":\"討伐時に敵が落とした\",\"color\":\"gray\",\"bold\":false,\"italic\":false},{\"text\":\"戦利品\",\"color\":\"dark_aqua\",\"bold\":true,\"italic\":false}]','[{\"text\":\"開封すると\",\"color\":\"gray\",\"bold\":false,\"italic\":false},{\"text\":\"高レアリティ\",\"color\":\"light_purple\",\"bold\":true,\"italic\":false},{\"text\":\"のアイテムが手に入る\",\"color\":\"gray\",\"bold\":false,\"italic\":false}]','[{\"text\":\"幸運値\",\"color\":\"green\",\"bold\":true,\"italic\":false},{\"text\":\"が大きいほど出やすくなり、\",\"color\":\"gray\",\"bold\":false,\"italic\":false}]','[{\"text\":\"解析装置や鑑定スキル\",\"color\":\"dark_blue\",\"bold\":false,\"italic\":false,\"underlined\":true},{\"text\":\"を使用すると、\",\"color\":\"gray\",\"bold\":false,\"italic\":false,\"underlined\":false}]','{\"text\":\"より良いアイテムが手にはいる。\",\"color\":\"gray\",\"bold\":false,\"italic\":false}']},CustomModelData:26,rare:5b,Enchantments:[{}],BlockEntityTag:{LootTable:\"neofunction:box/rare5\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "quality": 8,
+          "name": "minecraft:barrel",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'[{\"text\":\"||||||\",\"color\":\"white\",\"bold\":true,\"italic\":false,\"underlined\":true,\"strikethrough\":false,\"obfuscated\":true},{\"text\":\"  レジェンダリールート \",\"color\":\"red\",\"bold\":true,\"italic\":false,\"underlined\":true,\"strikethrough\":false,\"obfuscated\":false},{\"text\":\"||||||\",\"color\":\"white\",\"bold\":true,\"italic\":false,\"underlined\":true,\"strikethrough\":false,\"obfuscated\":true}]',Lore:['[{\"text\":\"討伐時に敵が落とした\",\"color\":\"gray\",\"bold\":false,\"italic\":false},{\"text\":\"戦利品\",\"color\":\"dark_aqua\",\"bold\":true,\"italic\":false}]','[{\"text\":\"開封すると\",\"color\":\"gray\",\"bold\":false,\"italic\":false},{\"text\":\"高レアリティ\",\"color\":\"light_purple\",\"bold\":true,\"italic\":false},{\"text\":\"のアイテムが手に入る\",\"color\":\"gray\",\"bold\":false,\"italic\":false}]','[{\"text\":\"幸運値\",\"color\":\"green\",\"bold\":true,\"italic\":false},{\"text\":\"が大きいほど出やすくなり、\",\"color\":\"gray\",\"bold\":false,\"italic\":false}]','[{\"text\":\"解析装置や鑑定スキル\",\"color\":\"dark_blue\",\"bold\":false,\"italic\":false,\"underlined\":true},{\"text\":\"を使用すると、\",\"color\":\"gray\",\"bold\":false,\"italic\":false,\"underlined\":false}]','{\"text\":\"より良いアイテムが手にはいる。\",\"color\":\"gray\",\"bold\":false,\"italic\":false}']},CustomModelData:27,rare:6b,Enchantments:[{}],BlockEntityTag:{LootTable:\"neofunction:box/rare6\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 32,
+          "quality": 4,
+          "name": "minecraft:experience_bottle",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\" 「サンプル」の魔石\",\"color\":\"gold\",\"bold\":true,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}',Lore:['[{\"text\":\"名前の対象が保持していた\",\"color\":\"gray\",\"bold\":false,\"italic\":false},{\"text\":\"魔石\",\"color\":\"gold\",\"bold\":true,\"italic\":false}]','[{\"text\":\"蓄えてきた\",\"color\":\"gray\",\"bold\":false,\"italic\":false},{\"text\":\"魔力\",\"color\":\"yellow\",\"bold\":true,\"italic\":false},{\"text\":\"や\",\"color\":\"gray\",\"bold\":false,\"italic\":false},{\"text\":\"生態情報\",\"color\":\"green\",\"bold\":false,\"italic\":false},{\"text\":\"が刻まれた\",\"color\":\"gray\",\"bold\":false,\"italic\":false},{\"text\":\"情報結晶\",\"color\":\"dark_green\",\"bold\":true,\"italic\":false}]','[{\"text\":\"結晶は\",\"color\":\"gray\",\"bold\":false,\"italic\":false},{\"text\":\"魔物の根源\",\"color\":\"light_purple\",\"bold\":false,\"italic\":false},{\"text\":\"であるため死亡と同時に\",\"bold\":false,\"italic\":false}]','[{\"text\":\"壊れてしまうことが多く\",\"color\":\"gray\",\"bold\":false,\"italic\":false},{\"text\":\"希少価値\",\"color\":\"dark_aqua\",\"bold\":false,\"italic\":false},{\"text\":\"が高い。\",\"bold\":false,\"italic\":false}]','[{\"text\":\"「情報結晶解析機」\",\"color\":\"dark_purple\",\"bold\":true,\"italic\":false},{\"text\":\"に読み取らせることで\",\"color\":\"gray\",\"bold\":false,\"italic\":false}]','[{\"text\":\"仮想空間\",\"color\":\"white\",\"bold\":true,\"italic\":false},{\"text\":\"で戦うことができるようになる。\",\"color\":\"gray\",\"bold\":false,\"italic\":false}]']},CustomModelData:5}"
+            },
+            {
+              "function": "minecraft:copy_name",
+              "source": "this"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

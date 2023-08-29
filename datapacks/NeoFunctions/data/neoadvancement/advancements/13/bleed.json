@@ -1,0 +1,62 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:nether_wart_block"
+    },
+    "title": {
+      "text": "Bleeding ≪出血≫                ",
+      "color": "#CC73FF"
+    },
+    "description": {
+      "text": "Bleedingのレベルに応じて毎秒ダメージを受ける。Bleedingが再び適用された場合、持続時間はリセットされる代わりに威力は増加する。",
+      "color": "white"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "parent": "neoadvancement:13/tree_negative",
+  "criteria": {
+    "find1": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{CustomEnchantments:[{id:\"bleeding\"}]}"
+          }
+        ]
+      }
+    },
+    "find2": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{CustomEnchantments:[{id:\"bleed\"}]}"
+          }
+        ]
+      }
+    },
+    "find5": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{CustomPotionEffects:[{Id:9b,Amplifier:13b}]}"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "find1",
+      "find2",
+      "find5"
+    ]
+  ],
+  "rewards": {
+    "function": "neoadvancement:13/descriptions/bleeding"
+  }
+}

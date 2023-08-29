@@ -1,0 +1,31 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:player_head",
+            "nbt": "{SkullOwner:{Id:[I;-718073293,503598341,-1804685886,118208621],Properties:{textures:[{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY5MDA0NTIwNTA3MywKICAicHJvZmlsZUlkIiA6ICJkNTMzMTIzMzFlMDQ0ZDA1OTQ2ZWFkYzIwNzBiYjg2ZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJNQV9NQU5fSlBWVCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9lODBjNDgyMTBiYmQ0MzUwODg5ZDkyZTQ1NWQ5YjQyNDJmYzRmMWNmZmMyYmNhNjllZjQ3MjFhZTc1YTMxM2U0IgogICAgfQogIH0KfQ==\"}]}}}"
+        },
+        "title": [
+            {
+                "text": ""
+            },
+            {
+                "translate": "任務 -Quest-                                ",
+                "color": "white",
+                "bold": true
+            }
+        ],
+        "description": {
+            "translate": "この進捗ではマイスタースキルの習得率を確認できます。(0/100)"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false,
+        "background": "minecraft:textures/block/white_shulker_box.png"
+    },
+    "criteria": {
+        "tick": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}

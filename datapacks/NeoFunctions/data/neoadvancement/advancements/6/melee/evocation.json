@@ -1,0 +1,35 @@
+{
+    "display": {
+        "title": {
+            "text": "Evocation ≪誘起≫               ",
+            "color": "aqua"
+        },
+        "description": {
+            "color": "white",
+            "text": "クリティカル、スニーク、ダッシュの攻撃は、攻撃のクールダウンが長くなる代償として、モブを攻撃したときにエヴォーカーの牙を生み出す。"
+        },
+        "icon": {
+            "item": "minecraft:shears"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "find": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{CustomEnchantments:[{id:\"evocation\"}]}"
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "neoadvancement:6/descriptions/melee/evocation"
+    },
+    "parent": "neoadvancement:6/melee/electrocute"
+}

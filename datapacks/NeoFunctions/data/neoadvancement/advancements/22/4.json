@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:map",
+            "nbt": "{display:{MapColor:0},CustomModelData:4,map:4}"
+        },
+        "title": [
+            {
+                "translate": "豊穣の大自然島 -CerestaFesta-                                ",
+                "color": "#c3d825",
+                "bold": true
+            }
+        ],
+        "description": {
+            "translate": "→【セレスタフェスタ】に到達する。\n報酬：ネザースター×128",
+                "color": "gold"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+  "parent": "neoadvancements:4dimensions/3",
+  "criteria": {
+    "dummy": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

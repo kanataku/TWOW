@@ -1,0 +1,35 @@
+{
+    "display": {
+        "title": {
+            "text": "Sharpshot ≪尖鋭射撃≫               ",
+            "color": "aqua"
+        },
+        "description": {
+            "color": "white",
+            "text": "この武器の矢は、遠くへ飛ぶほどダメージが大きくなる。"
+        },
+        "icon": {
+            "item": "minecraft:bow"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "find": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{CustomEnchantments:[{id:\"sharpshot\"}]}"
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "neoadvancement:6/descriptions/ranged/sharpshot"
+    },
+    "parent": "neoadvancement:6/ranged/repeater"
+}

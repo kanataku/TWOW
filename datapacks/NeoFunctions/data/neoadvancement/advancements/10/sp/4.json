@@ -1,0 +1,32 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:player_head",
+            "nbt": "{SkullOwner:{Id:[I;1858184360,1199785151,-1941464321,128284079],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODcxM2Y4YmQxOTM4NGVkNWI5ZDcyZWE5MWNjY2ZhMGU4Zjk0YjM4MjFjYzVlOTdiNTI3N2U5OWU5MTZiOGY0NiJ9fX0=\"}]}}}"
+        },
+        "title": [
+            {
+                "translate": "冀求力 -SoulPressure-                                ",
+                "color": "white",
+                "bold": true
+            }
+        ],
+        "description": {
+            "translate": "→ステータスを上昇させる。\n報酬：ネザースター×128",
+                "color": "gold"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+  "parent": "neoadvancement:10/sp/3",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "neoadvancement:give"
+  }
+}

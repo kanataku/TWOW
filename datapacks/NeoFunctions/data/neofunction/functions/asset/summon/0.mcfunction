@@ -1,0 +1,6 @@
+# nowa
+#>= /function neofunction:asset/summon/0
+
+
+execute as 0000-0000-0000-0000-0000 if entity @s run say 「ここにいるのです！」
+execute unless entity 0000-0000-0000-0000-0000 run summon wandering_trader ~ ~ ~ {Air:300s,OnGround:1b,Silent:1b,Invulnerable:1b,UUID:[I;0,0,0,0],CustomNameVisible:1b,FallDistance:0f,PortalCooldown:0,LeftHanded:0b,FallFlying:0b,PersistenceRequired:0b,AbsorptionAmount:99999f,Health:999f,LastRestock:0,Xp:0,DespawnDelay:2400,Age:0,ForcedAge:0,Motion:[0.0,0.0,0.0],Tags:["nowa","argonaute"],CustomName:'{"text":"nowa","color":"#1E28D2","bold":true,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false}',ArmorItems:[{},{},{},{id:"minecraft:structure_block",Count:1b,tag:{display:{Name:'{"text":"nowa"}'},CustomModelData:0,BlockEntityTag:{rotation:"NONE",mirror:"NONE",mode:"SAVE"}}}],ArmorDropChances:[0.085F,0.085F,0.085F,0.000F],Attributes:[{Name:generic.max_health,Base:999},{Name:generic.knockback_resistance,Base:1},{Name:generic.movement_speed,Base:0}],WanderTarget:{X:1280,Y:128,Z:1280}}

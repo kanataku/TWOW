@@ -1,0 +1,33 @@
+{
+    "criteria": {
+        "found": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "nbt": "{Tags:[\"ca.magic_missile\"]}"
+                }
+            }
+        }
+    },
+    "display": {
+        "title": {
+            "text": "Magic Missile ≪マジックミサイル≫           ",
+            "color": "white"
+        },
+        "description": {
+            "text": "敵は、プレイヤーを追いかける弾丸を発射することができます。プレイヤーにぶつかったり、ブロックしたり、攻撃したりすると、近くのエンティティにダメージを与える。",
+            "color": "white"
+        },
+        "icon": {
+            "item": "minecraft:crying_obsidian"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "rewards": {
+        "function": "neoadvancement:11/descriptions/active/magic_missile"
+    },
+    "parent": "neoadvancement:11/active/laser"
+}

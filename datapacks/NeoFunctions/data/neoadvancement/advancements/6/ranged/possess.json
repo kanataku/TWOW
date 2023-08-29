@@ -1,0 +1,35 @@
+{
+    "display": {
+        "title": {
+            "text": "Possess ≪憑依≫                 ",
+            "color": "aqua"
+        },
+        "description": {
+            "text": "この武器から発射された矢は、確率で敵を憑依させる。",
+            "color": "white"
+        },
+        "icon": {
+            "item": "minecraft:slime_ball"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "find": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{CustomEnchantments:[{id:\"possess\"}]}"
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "neoadvancement:6/descriptions/ranged/possess"
+    },
+    "parent": "neoadvancement:6/ranged/point_blank"
+}

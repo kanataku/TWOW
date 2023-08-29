@@ -1,0 +1,14 @@
+スプレッドシートのマクロで出力したデータを貼り付けるだけで全てが叶う。
+https://docs.google.com/spreadsheets/d/1oRn_1tbEpzJEsyvsKct2pbeRSbK9n8WjXLdGHn6SC50/edit#gid=429073876
+
+
+
+召喚は
+/function neofunction:asset/summon/1
+
+↓に置いてあるサモンスクロールを使おう
+/execute in minecraft:the_end run tp @s 1316 142 1240 -90 15
+
+
+###テンプレ
+summon zombie ~ ~ ~ {CustomName:'{"text":"missingno"}',Tags:["test"],Passengers:[{id:"minecraft:text_display",Tags:["upper"],text:'[{"text":"この/functionはまだセットされていません。"},{"text":"\\n"},{"text":"/reload はしましたか？"}]'}],DeathLootTable:"neofunction:entity/19"}

@@ -1,0 +1,35 @@
+{
+    "display": {
+        "title": {
+            "text": "Surging Strike ≪突進≫           ",
+            "color": "aqua"
+        },
+        "description": {
+            "text": "近接武器で攻撃すると、敵に突き刺さるようにダメージを与える \"突き攻撃\"が発生する。疾走すると貫通する距離が伸びる。",
+            "color": "white"
+        },
+        "icon": {
+            "item": "minecraft:stone_sword"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "find": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{CustomEnchantments:[{id:\"surging_strike\"}]}"
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "neoadvancement:6/descriptions/melee/surging_strike"
+    },
+    "parent": "neoadvancement:6/melee/stunning"
+}

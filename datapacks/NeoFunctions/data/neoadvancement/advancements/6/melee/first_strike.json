@@ -1,0 +1,35 @@
+{
+    "display": {
+        "title": {
+            "text": "First Strike ≪先制攻撃≫               ",
+            "color": "aqua"
+        },
+        "description": {
+            "color": "white",
+            "text": "戦闘中、最初に行う近接攻撃は追加ダメージを与える。このバフは戦闘を離れるとリフレッシュされる。"
+        },
+        "icon": {
+            "item": "minecraft:netherite_sword"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "find": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{CustomEnchantments:[{id:\"first_strike\"}]}"
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "neoadvancement:6/descriptions/melee/first_strike"
+    },
+    "parent": "neoadvancement:6/melee/transfiguration"
+}

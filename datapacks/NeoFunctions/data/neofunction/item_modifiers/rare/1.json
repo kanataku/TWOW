@@ -1,0 +1,21 @@
+[
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      {
+        "text": "Common:",
+        "color": "white",
+        "bold": "true",
+        "italic": false,
+        "extra": [
+          {
+            "text": "✯",
+            "color": "#ffe33b",
+            "italic": false
+          }
+        ]
+      }
+    ]
+  }
+]

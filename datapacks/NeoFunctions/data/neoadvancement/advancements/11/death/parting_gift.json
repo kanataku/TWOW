@@ -1,0 +1,33 @@
+{
+    "display": {
+        "title": {
+            "text": "Parting Gift ≪置き土産≫            ",
+            "color": "white"
+        },
+        "description": {
+            "text": "死亡時、発火したTNTブロックを落とす。",
+            "color": "white"
+        },
+        "icon": {
+            "item": "minecraft:tnt"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "found": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "nbt": "{Tags:[\"ca.parting_gift\"]}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "neoadvancement:11/descriptions/death/parting_gift"
+    },
+    "parent": "neoadvancement:11/death/exalted"
+}

@@ -1,0 +1,35 @@
+{
+    "criteria": {
+        "found": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{RepairCost:60}"
+                    }
+                ]
+            }
+        }
+    },
+    "display": {
+        "title": {
+            "text": "Curse of Irreparability ≪修繕不可の呪い≫ ",
+            "color": "red"
+        },
+        "description": {
+            "color": "white",
+            "text": "このアイテムは、金床では修理できません。"
+        },
+        "icon": {
+            "item": "minecraft:damaged_anvil"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "rewards": {
+        "function": "neoadvancement:6/descriptions/curse/irreparability"
+    },
+    "parent": "neoadvancement:6/curse/encumbering"
+}

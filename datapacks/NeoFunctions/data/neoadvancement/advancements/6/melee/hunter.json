@@ -1,0 +1,35 @@
+{
+    "criteria": {
+        "find": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{CustomEnchantments:[{id:\"hunter\"}]}"
+                    }
+                ]
+            }
+        }
+    },
+    "display": {
+        "title": {
+            "text": "Hunter ≪狩人≫                  ",
+            "color": "aqua"
+        },
+        "description": {
+            "color": "white",
+            "text": "この武器による近接攻撃は、クリーパー、ブレイズ、ピグリン、エンダーマンなどのMobに追加ダメージを与える。"
+        },
+        "icon": {
+            "item": "minecraft:creeper_head"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "rewards": {
+        "function": "neoadvancement:6/descriptions/melee/hunter"
+    },
+    "parent": "neoadvancement:6/melee/frostbite"
+}

@@ -1,0 +1,35 @@
+{
+    "criteria": {
+        "find": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{CustomEnchantments:[{id:\"satiation\"}]}"
+                    }
+                ]
+            }
+        }
+    },
+    "display": {
+        "title": {
+            "text": "Satiation ≪飽食≫               ",
+            "color": "aqua"
+        },
+        "description": {
+            "text": "食べ物を摂取したとき、短時間の吸収シールドを獲得する。",
+            "color": "white"
+        },
+        "icon": {
+            "item": "minecraft:golden_carrot"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "rewards": {
+        "function": "neoadvancement:6/descriptions/passive/satiation"
+    },
+    "parent": "neoadvancement:6/passive/regeneration"
+}

@@ -1,0 +1,33 @@
+{
+    "display": {
+        "title": {
+            "text": "WitherSkuller ≪ウィザースカラー≫         ",
+            "color": "white"
+        },
+        "description": {
+            "text": "Wither Skullsを発射する。",
+            "color": "white"
+        },
+        "icon": {
+            "item": "minecraft:wither_skeleton_skull"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "found": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "nbt": "{Tags:[\"ca.shoot_wither_skull\"]}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "neoadvancement:11/descriptions/passive/projectile/wither_skull"
+    },
+    "parent": "neoadvancement:11/passive/projectile/shulker_bullet"
+}

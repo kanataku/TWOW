@@ -1,0 +1,35 @@
+{
+    "display": {
+        "title": {
+            "text": "Curse of Malevolence ≪悪意の呪い≫     ",
+            "color": "red"
+        },
+        "description": {
+            "text": "一度に1個以上使用した場合、使用者に「盲目」の効果が発生します。",
+            "color": "white"
+        },
+        "icon": {
+            "item": "minecraft:obsidian"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "find": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{CustomEnchantments:[{id:\"curse_malevolence\"}]}"
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "neoadvancement:6/descriptions/curse/malevolence"
+    },
+    "parent": "neoadvancement:6/curse/irreparability"
+}

@@ -1,0 +1,33 @@
+{
+    "criteria": {
+        "found": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "nbt": "{Tags:[\"ca.needle\"]}"
+                }
+            }
+        }
+    },
+    "display": {
+        "title": {
+            "text": "Needle ≪刺突≫                 ",
+            "color": "white"
+        },
+        "description": {
+            "color": "white",
+            "text": "敵は、最も近いプレイヤーに針のような弾丸の群れを投げつける。"
+        },
+        "icon": {
+            "item": "minecraft:trident"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "rewards": {
+        "function": "neoadvancement:11/descriptions/active/needle"
+    },
+    "parent": "neoadvancement:11/active/magic_missile"
+}

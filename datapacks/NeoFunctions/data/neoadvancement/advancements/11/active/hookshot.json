@@ -1,0 +1,33 @@
+{
+    "display": {
+        "title": {
+            "text": "Hookshot ≪フックショット≫                ",
+            "color": "white"
+        },
+        "description": {
+            "color": "white",
+            "text": "敵はフック弾を発射し、プレイヤーを敵の方へ引きずり戻すことができます。"
+        },
+        "icon": {
+            "item": "minecraft:fishing_rod"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "found": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "nbt": "{Tags:[\"ca.hookshot\"]}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "neoadvancement:11/descriptions/active/hookshot"
+    },
+    "parent": "neoadvancement:11/active/healer"
+}

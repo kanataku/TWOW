@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:filled_map",
+            "nbt": "{display:{MapColor:16754726}}"
+        },
+        "title": [
+            {
+                "translate": "明滅の立体砂漠 -SunSandBox-                                ",
+                "color": "#c3d825",
+                "bold": true
+            }
+        ],
+        "description": {
+            "translate": "→【サンサンドボックス】に到達する。\n報酬：ネザースター×128",
+                "color": "gold"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+  "parent": "neoadvancement:2/4",
+  "criteria": {
+    "dummy": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

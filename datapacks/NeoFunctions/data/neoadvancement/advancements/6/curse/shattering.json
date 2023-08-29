@@ -1,0 +1,35 @@
+{
+    "criteria": {
+        "find": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{CustomEnchantments:[{id:\"curse_shattering\"}]}"
+                    }
+                ]
+            }
+        }
+    },
+    "display": {
+        "title": {
+            "text": "Curse of Shattering ≪粉砕の呪い≫     ",
+            "color": "red"
+        },
+        "description": {
+            "color": "white",
+            "text": "使用者が死亡してこのアイテムを落とすと、残りの耐久値の一部が失われる。"
+        },
+        "icon": {
+            "item": "minecraft:glass"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "rewards": {
+        "function": "neoadvancement:6/descriptions/curse/shattering"
+    },
+    "parent": "neoadvancement:6/curse/regret"
+}
